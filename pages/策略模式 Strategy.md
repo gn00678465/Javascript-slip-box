@@ -2,8 +2,10 @@
 - 原則：將**不變的部分與變化的部分隔開**
 - ## Example
 	- ```typescript
+	  type Strategy = [boolean, () => void]
+	  
 	  // 變化的
-	  const strategy: Array<Array<boolean, () => void>> = [
+	  const strategy: Array<Strategy> = [
 	    [type === 'A', () => { //do A }],
 	    [type === 'B', () => { //do B }],
 	    [type === 'C', () => { //do C }]
