@@ -4,18 +4,23 @@
 	- ```typescript
 	  type Strategy = [boolean, () => void]
 	  
-	  // 變化的
-	  const strategy: Array<Strategy> = [
-	    [type === 'A', () => { //do A }],
-	    [type === 'B', () => { //do B }],
-	    [type === 'C', () => { //do C }]
-	  ]
-	  
 	  // 不變的
-	  function execStrategy(type, strategy) {
+	  function execStrategy(strategy) {
 	    [...strategy].some(([flag, action]) => {
 	      if (flag) { action() }
 	      return flag
 	    })
+	  }
+	  
+	  function useStrategy(type) {
+	    // 變化的
+	    const strategy: Array<Strategy> = [
+	      [type === 'A', () => { //do A }],
+	      [type === 'B', () => { //do B }],
+	      [type === 'C', () => { //do C }]
+	    ];
+	  
+	    execStrategy(strategy);
+	  
 	  }
 	  ```
