@@ -19,7 +19,7 @@
 	  swap<number, string>([1, 'a']); // ["a", 1]: [string, number]
 	  ```
 - ## 型別約束
-	- 當使用泛型變數時，無法事先得知型別，不能隨意操作屬性或方法：
+	- 當使用泛型變數時，**無法事先得知**型別，不能隨意操作屬性或方法：
 	- ```typescript
 	  function loggingIdentity<T>(arg: T): T {
 	      console.log(arg.length);
@@ -28,9 +28,13 @@
 	  // 泛型 T 不一定包含屬性 length
 	  // Property 'length' does not exist on type 'T'.
 	  ```
-	- 可以針對泛型進行約束，只允許傳入包含某特定屬性或方法的變數。
+	- 可以針對泛型進行**約束**，只允許傳入包含某特定屬性或方法的變數。
 	- ```typescript
-	  function loggingIdentity<T>(arg: T): T {
+	  interface L {
+	    length: number
+	  }
+	  
+	  function loggingIdentity<T extends L>(arg: T): T {
 	      console.log(arg.length);
 	      return arg;
 	  }
