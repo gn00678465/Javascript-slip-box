@@ -1,6 +1,6 @@
 - ## 概述
 - Docker 將資料儲存於 container 外的方法
-	- ![](https://miro.medium.com/max/501/0*NP2huq9XtEMxn1YG.png)
+	- ![volumes on the Docker host](https://docs.docker.com/storage/images/types-of-mounts-volume.png)
 	- Bind Mount: 資料存在 Filesystem 中。
 	- Volume: 資料存在 Filesystem 內的 Docker Area 中。
 	- Tmpfs Mount: 資料存放在記憶體中。
@@ -25,10 +25,28 @@
 	- ### 綁定 Volume
 		- ```bash
 		  # -v
+		  docker run -d -v [VOLUME]:[target]
 		  
-		  # -
+		  # -mount
+		  docker run -d --mount source=[VOLUME],target=[target]
+		  ```
+		- **[target]**，代表 Container 內的路徑，也就是將 Container 內的路徑掛載到 **[VOLUME]**
+	- ### 移除 Volume
+		- ```bash
+		  docker volume rm [OPTIONS] VOLUME [VOLUME...]
 		  ```
 - ## Bind Mount
+	- > 將資料存放到 **Filesystem**
+	- ### 綁定 Filesystem
+		- ```bash
+		  # -v
+		  docker run -d -v [source]:[target]
+		  
+		  # --mount
+		  docker run -d --mount type=bind,source=[source],target=[target]
+		  ```
+		- 使用 `--mount` ，必須設定綁定的形式 `type=bind`。
+		- `type` 可以為 `bind`、 `volume`、`tmpfs`，
 - ## Tmpfs Mount
 - ## Reference
 - [Docker筆記 - 讓資料遠離Container，使用 Volume、Bind Mount 與 Tmpfs Mount](https://medium.com/alberthg-docker-notes/docker%E7%AD%86%E8%A8%98-%E8%AE%93%E8%B3%87%E6%96%99%E9%81%A0%E9%9B%A2container-%E4%BD%BF%E7%94%A8-volume-bind-mount-%E8%88%87-tmpfs-mount-6908da341d11)
