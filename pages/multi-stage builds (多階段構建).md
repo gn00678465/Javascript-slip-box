@@ -38,5 +38,15 @@
 		  ```
 		- 利用 **stage 0** (stage base) 建立好的中間映像檔作為 parent image
 		- 利用 `COPY` 取得剛剛在 stage 1 (stage go-builder) 產生的 artifacts
+			- `COPY --from=1`
+			- `COPY --from=<intermediate_image_name>`
+			- 實際行為是從該 image 把對應路徑的檔案或 artifacts，複製進 container
+	- ### 小技巧
+		- `FROM <base_image> as <stage_name>`
+			- 記得為每個 stage 命名，提高整體可讀性
+			- 未來若有更多 stage 加入時，可以不需跟著修改現存的 `COPY` 指令
+		- `COPY --from=<stage_name>`
+			- 多利用 stage 名字取代數字以提高可讀性及維護性
 - ## Reference
 - [透過 Multi-Stage Builds 改善持續交付流程](https://tachingchen.com/tw/blog/docker-multi-stage-builds/)
+- [Multi-stage Build](https://ithelp.ithome.com.tw/articles/10247981)
