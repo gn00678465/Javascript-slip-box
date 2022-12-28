@@ -1,5 +1,6 @@
 - > 製作容器映像檔時有個常見的原則: 映像檔越小越好
 - ## Example
+	- golang
 	- ```Dockerfile
 	  FROM alpine AS base
 	  RUN apk add --no-cache curl wget
@@ -13,6 +14,28 @@
 	  COPY --from=go-builder /go/main /main
 	  CMD ["/main"]
 	  ```
+	- node.js
+	- ```dockerfile
+	  FROM node:latest as build-stage
+	  
+	  ENV WORKDIR=/app
+	  WORKDIR $WORKDIR
+	  COPY . $WORKDIR
+	  
+	  RUN npm install
+	  RUN npm run build
+	  
+	  FROM nginx:alpine as production-stage
+	  
+	  RUN mkdir /app
+	  
+	  COPY --from=build-stage /app/dist /app
+	  COPY --from=build-stage [nginx.conf] /etc/nginx/nginx.conf
+	  
+	  EXPOSE 443
+	  EXPOSE 80
+	  ```
+	- *[nginx.conf]* 取代為放置 nginx.conf 的路徑
 - ## Stages
 	- ### Stage 0 (base)
 		- ```dockerfile

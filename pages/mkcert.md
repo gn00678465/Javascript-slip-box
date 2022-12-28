@@ -6,7 +6,7 @@ certificate:: mkcert
 	  -v [PATH]:/root/.local/share/mkcert \
 	  vishnunair/docker-mkcert
 	  ```
-	- `-e`: 多網域以 **,** 分隔
-	- `-v`: 產生憑證的路徑
+	- `-e`: [DOMAIN] 取代要產生憑證的 domain, 多個 domain 以 **,** 分隔
+	- `-v`: [PATH] 產生憑證的路徑
 - ## Reference
 	- [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
