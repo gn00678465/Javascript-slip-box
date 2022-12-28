@@ -6,7 +6,6 @@
 		  include /etc/nginx/conf.d/*.conf;
 		  ```
 - ## config 設定檔
-  collapsed:: true
 	- 新增 `default.conf` 檔案，並放置於 `/etc/nginx/conf.d`
 	- ```plain
 	  upstream api {
