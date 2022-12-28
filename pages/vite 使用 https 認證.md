@@ -1,4 +1,4 @@
-- 需先安裝 [[mkcert]] 產生本地端簽證
+- 需先安裝 [[mkcert]] 產生本地端憑證
 - 產生簽證後，需要於 `vite.config.js` 內設定
   ```ts
   // vite.config.ts
