@@ -6,7 +6,8 @@
 		  include /etc/nginx/conf.d/*.conf;
 		  ```
 - ## config 設定檔
-	-
+  collapsed:: true
+	- 新增 `default.conf` 檔案，並放置於 `/etc/nginx/conf.d`
 	- ```plain
 	  upstream api {
 	      server localhost:5000;
@@ -33,5 +34,6 @@
 	- {{embed [[location]]}}
 	- {{embed [[https]]}}
 - ## Reference
+  collapsed:: true
 	- [[基礎觀念系列] Web Server & Nginx — (2)](https://medium.com/starbugs/web-server-nginx-2-bc41c6268646)
 	- [NGINXConfig](https://www.digitalocean.com/community/tools/nginx)
