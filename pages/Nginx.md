@@ -6,6 +6,7 @@
 		  include /etc/nginx/conf.d/*.conf;
 		  ```
 - ## config 設定檔
+	-
 	- ```plain
 	  upstream api {
 	      server localhost:5000;
