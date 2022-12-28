@@ -16,7 +16,7 @@
 	      listen 80;
 	      listen [::]:80;
 	      server_name SERVER_IP;
-	      root /home/ryan;
+	      root /var/www/html;
 	  
 	      proxy_set_header Host $http_host;
 	      proxy_set_header X-Real-IP $remote_addr;
