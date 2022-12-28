@@ -32,3 +32,5 @@ nginx:: https
 	  }
 	  ```
 	- `ssl_certificate`: 憑證檔對應，依照環境修改設定
+- ## Reference
+	- [Nginx HTTP重定向HTTPS](https://www.myfreax.com/redirect-http-to-https-in-nginx/)
