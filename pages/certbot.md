@@ -1,3 +1,5 @@
+certificate:: certbot
+
 - ## 安裝 certbot
 	- 參考 [Certbot 官方網站](https://certbot.eff.org/) 的指引。
 		- **My HTTP website is running  on**
