@@ -33,6 +33,5 @@
 	- {{embed [[location]]}}
 	- {{embed [[https]]}}
 - ## Reference
-  collapsed:: true
 	- [[基礎觀念系列] Web Server & Nginx — (2)](https://medium.com/starbugs/web-server-nginx-2-bc41c6268646)
 	- [NGINXConfig](https://www.digitalocean.com/community/tools/nginx)
