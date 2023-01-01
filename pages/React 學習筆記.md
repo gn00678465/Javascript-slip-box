@@ -15,4 +15,5 @@ type:: react
 			- ```jsx
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
-		- component 必須以大寫開頭
+- ## Component
+	- component 必須以大寫開頭
