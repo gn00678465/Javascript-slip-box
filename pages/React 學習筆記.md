@@ -16,4 +16,6 @@ type:: react
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
 - ## Component
-	- component 必須以大寫開頭
+	- component 必須以**大寫**開頭
+	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
+		- `[property]="value"`
