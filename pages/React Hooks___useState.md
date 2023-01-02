@@ -1,5 +1,6 @@
 category:: programing
 type:: react
+alias
 
 - ```typescript
   const [num, setNum] = useState(0);
