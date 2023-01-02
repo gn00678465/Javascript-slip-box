@@ -1,4 +1,4 @@
-category:: programing
+category:: Programing
 type:: react
 alias
 

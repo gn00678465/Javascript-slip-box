@@ -1,3 +1,6 @@
+category:: Environment
+type:: docker
+
 - ## 概述
 - Docker 將資料儲存於 container 外的方法
 	- ![volumes on the Docker host](https://docs.docker.com/storage/images/types-of-mounts-volume.png)

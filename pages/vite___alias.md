@@ -1,4 +1,6 @@
--
+category:: Environment
+type:: vite
+
 - ### vite
 	- ```typescript
 	  // vite.config.ts
