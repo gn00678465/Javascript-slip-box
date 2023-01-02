@@ -9,7 +9,8 @@ type:: react
 		- `inline style` 須使用 `object` 寫法
 		- `Input` 標籤中
 			- `checked` 須改為 `defaultChecked`
-			- `value` 須改為 `defaultValue`
+			- `value` 需與 `onChange` 事件一起使用
+			- 若無使用 `onChange` 事件， `value` 須改為 `defaultValue`
 			- `label` 標籤的 `for` 屬性須改為 `htmlFor`
 			- `textarea` 的值須使用 `defaultValue`
 			- `select` 需使用 `defaultValue`，並綁訂於 `select` 標籤上
