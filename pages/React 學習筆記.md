@@ -21,7 +21,7 @@ type:: react
 	- component 必須以**大寫**開頭
 	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
 		- `[property]="value"` 傳入以 string 為主
-		- `[property]={value}` 傳入 string 以外的型別或變數
+		- `[property]={value}` 傳入 string 以外的型別、變數或 function
 	- 以 loop 方式 render component，每一個 component 必須帶入 key，且 key 必須為**唯一值**
 	- **children 也是 props**，可直接將內容(並非 property )傳入 component 內
 		- ```jsx
@@ -34,3 +34,5 @@ type:: react
 - ## Hooks
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[React Hooks/useState]]
+	- [[React Hooks/useEffect]]
+	- [[React Hooks/useRef]]
