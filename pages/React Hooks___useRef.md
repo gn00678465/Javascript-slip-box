@@ -13,9 +13,12 @@ alias:: useRef
 - 取得 DOM 的 reference，並直接操作 DOM
 	- ```typescript
 	  const App = () => {
-	    const buttonRef = useRef(null);
+	    const inputRef = useRef(null);
+	    function onChange() {
+	      console.log(inputRef.current.value);
+	    }
 	    return (
-	    	<button ref={buttonRef}></button>
+	    	<input type="text" ref={buttonRef} onChange={onChange}></input>
 	    )
 	  }
 	  ```
