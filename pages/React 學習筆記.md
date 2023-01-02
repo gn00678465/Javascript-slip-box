@@ -18,7 +18,6 @@ id:: 63b0def7-3b40-4903-b8c2-502d3dff5ec1
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
 - ## Component
-  collapsed:: true
 	- component 必須以**大寫**開頭
 	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
 		- `[property]="value"` 傳入以 string 為主
@@ -32,3 +31,6 @@ id:: 63b0def7-3b40-4903-b8c2-502d3dff5ec1
 		  
 		  <Child>pass data</Child>
 		  ```
+- ## Hooks
+	- > 所有 react hooks 的方法只能使用在 Component 內
+	- [[Hooks/useState]]
