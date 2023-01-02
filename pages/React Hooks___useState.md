@@ -1,6 +1,6 @@
 category:: Programing
-type:: react
-alias
+type:: react,hooks
+alias:: useState
 
 - ```typescript
   const [num, setNum] = useState(0);
@@ -10,3 +10,4 @@ alias
 	- 直接帶入要修改的 state
 	- 可帶入一個 callback function ，state 作為參數傳入此 function 內操作
 		- 帶入的參數為變更前的 state
+- 當 state 更新時，會觸發 re-render

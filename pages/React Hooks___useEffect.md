@@ -1,3 +1,7 @@
+category:: Programing
+type:: react,hooks
+alias:: useEffect
+
 - ```typescript
   useEffect(function() {}, [option])
   ```
