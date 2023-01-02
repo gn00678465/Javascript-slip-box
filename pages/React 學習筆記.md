@@ -32,5 +32,5 @@ id:: 63b0def7-3b40-4903-b8c2-502d3dff5ec1
 		  <Child>pass data</Child>
 		  ```
 - ## Hooks
-	- > 所有 react hooks 的方法只能使用在 Component 內
+	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[Hooks/useState]]
