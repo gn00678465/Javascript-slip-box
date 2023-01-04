@@ -1,4 +1,5 @@
 nginx:: https
+title:: Nginx/https
 
 - > 將 http 變為 https，必須搭配 **SSL certificate**
 - 使用 [[certbot]] 取得來自 Let’s Encrypt 的免費憑證（有效期限 90 天）
@@ -15,7 +16,7 @@ nginx:: https
 	  server {
 	    listen *:443 ssl http2;
 	    server_name  localhost;
-	    root /app;
+	    root /var/www/html;
 	    index index.html;
 	    # 憑證檔
 	    ssl_certificate /cert/cert.pem; 

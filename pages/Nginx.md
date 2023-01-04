@@ -28,10 +28,10 @@
 	      }
 	  }
 	  ```
-	- {{embed [[upstream]]}}
-	- {{embed [[server]]}}
-	- {{embed [[location]]}}
-	- {{embed [[https]]}}
+	- {{embed [[Nginx/https]]}}
+	- {{embed [[Nginx/upstream]]}}
+	- {{embed [[Nginx/server]]}}
+	- {{embed [[Nginx/location]]}}
 - ## Reference
 	- [[基礎觀念系列] Web Server & Nginx — (2)](https://medium.com/starbugs/web-server-nginx-2-bc41c6268646)
 	- [用Nginx架設local端https應用](https://hackmd.io/@warrenpig/create-self-signed-https-nginx-app)

@@ -1,4 +1,5 @@
 Nginx:: server
+title:: Nginx/server
 
 - > server block 定義 proxy server 的相關設定。
 	- 要監聽的 port
