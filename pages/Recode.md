@@ -1,5 +1,5 @@
+category:: Programing
 Typescript:: Record
-title:: Recode
 
 - ## Record<Keys, Type>
 	- ```typescript
