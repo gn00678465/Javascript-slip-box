@@ -3,7 +3,6 @@ category:: Programing
 type:: react
 
 - ## Intro basic
-  collapsed:: true
 	- ### JSX 與 HTML 的標籤屬性
 		- `class` 須改為 `className`
 		- `inline style` 須使用 `object` 寫法
