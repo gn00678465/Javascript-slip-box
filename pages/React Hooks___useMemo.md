@@ -2,9 +2,10 @@ category:: Programing
 type:: react,hooks
 alias:: useMemo
 
+- > 當元件重新渲染時，避免函式又進行不必要的執行，可透過 `useMemo` 將函式運算完的值存起來。
 - ```typescript
   const memoizedValue = useMemo(() => {
-    return // some value
+    return // memoized value
   }, [effect])
   ```
 - **Parameter**
