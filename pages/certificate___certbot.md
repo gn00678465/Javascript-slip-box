@@ -1,4 +1,6 @@
-certificate:: certbot
+category:: Environment
+type:: certificate
+alias:: cerbot
 
 - ## 安裝 certbot
 	- 參考 [Certbot 官方網站](https://certbot.eff.org/) 的指引。

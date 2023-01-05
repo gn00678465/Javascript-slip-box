@@ -2,7 +2,7 @@ nginx:: https
 title:: Nginx/https
 
 - > 將 http 變為 https，必須搭配 **SSL certificate**
-- 使用 [[certbot]] 取得來自 Let’s Encrypt 的免費憑證（有效期限 90 天）
+- 使用 [[certificate/certbot]] 取得來自 Let’s Encrypt 的免費憑證（有效期限 90 天）
 - ## 設定
 	- ```plain
 	  # 將 http 導向到 https
