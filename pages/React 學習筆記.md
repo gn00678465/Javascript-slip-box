@@ -36,3 +36,6 @@ type:: react
 	- [[React Hooks/useState]]
 	- [[React Hooks/useEffect]]
 	- [[React Hooks/useRef]]
+	- [[React Hooks/useMemo]]
+- ## 方法
+	- [[React/React.memo]]
