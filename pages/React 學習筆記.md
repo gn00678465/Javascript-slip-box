@@ -38,4 +38,4 @@ type:: react
 	- [[React Hooks/useRef]]
 	- [[React Hooks/useMemo]]
 - ## API
-	- [[React/React.memo]]
+	- [[React API/React.memo]]
