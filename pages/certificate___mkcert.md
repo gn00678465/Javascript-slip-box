@@ -1,4 +1,7 @@
-certificate:: mkcert
+category:: Environment
+type:: certificate
+alias:: mkcert
+title:: certificate/mkcert
 
 - ## 建立憑證
 	- ```bash

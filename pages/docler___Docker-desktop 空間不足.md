@@ -1,5 +1,6 @@
 category:: Environment
 type:: docker,windows
+alias:: Docker-desktop 空間不足
 
 - shutdown docker-desktop
 - shutdown wsl: `wsl --shutdown`
