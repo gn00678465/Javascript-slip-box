@@ -37,5 +37,5 @@ type:: react
 	- [[React Hooks/useEffect]]
 	- [[React Hooks/useRef]]
 	- [[React Hooks/useMemo]]
-- ## 方法
+- ## API
 	- [[React/React.memo]]
