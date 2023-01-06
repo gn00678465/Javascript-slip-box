@@ -1,5 +1,6 @@
 category:: Programing
-Typescript:: Record
+type:: Typescript
+alias:: Record
 
 - ## Record<Keys, Type>
 	- ```typescript
