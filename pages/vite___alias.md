@@ -1,5 +1,5 @@
 category:: Environment
-type:: vite
+type:: vite,config
 
 - ### vite
 	- ```typescript
