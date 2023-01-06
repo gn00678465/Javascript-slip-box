@@ -42,3 +42,4 @@ type:: react
 - ## 狀態管理
 	- [[React API/createContext]]
 	- [[React Hooks/useContext]]
+	- [[React Hooks/useReducer]]
