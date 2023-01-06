@@ -26,7 +26,8 @@ alias:: useEffect
 		    })()
 		  }, [])
 		  ```
-- useEffect callback function 內定義一個 return function (cleanup)，將會是元件準備要卸載時會觸發的行為
+- ## 移除監聽
+- 在 useEffect callback function 內定義一個 return function (cleanup)，將會是元件準備要卸載時會觸發的行為
 	- 由於每次 re-render 時，執行的都是一個全新的 effect，因此在每次 re-render 前也都會執行 cleanup 的函式
 	- ```typescript
 	  useEffect(() => {
