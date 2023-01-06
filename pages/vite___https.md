@@ -1,3 +1,8 @@
+category:: Environment
+type:: Vite,Config
+alias:: vite 使用 https 認證
+
+- ## vite 使用 https 認證
 - 需先安裝 [[certificate/mkcert]] 產生本地端憑證
 - 產生簽證後，需要於 `vite.config.js` 內設定
   ```ts

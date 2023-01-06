@@ -1,5 +1,6 @@
 category:: Environment
-type:: vite,config
+type:: Vite,Config
+alias:: alias
 
 - ### vite
 	- ```typescript
