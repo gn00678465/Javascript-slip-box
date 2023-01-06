@@ -37,4 +37,4 @@ alias:: useReducer
 		  }
 		  ```
 - ## Reference
-	- [](https://zh-hant.reactjs.org/docs/hooks-reference.html#usereducer)
+	- [useReducer](https://zh-hant.reactjs.org/docs/hooks-reference.html#usereducer)
