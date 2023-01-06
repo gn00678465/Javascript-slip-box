@@ -9,13 +9,10 @@ alias:: Partial
 	    title: string;
 	    description: string;
 	  }
-	  type OptionalTodoField = Partial<Todo>;
-	  /**
-	  {
-	    title?: string;
-	    description?: string;
+	  
+	  function updateTodo(data: Todo, newData: Partial<Todo>) {
+	    return { ...data, ...newData };
 	  }
-	  */
 	  ```
 - ## Reference
 	- [Utility Types - Partial](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)
