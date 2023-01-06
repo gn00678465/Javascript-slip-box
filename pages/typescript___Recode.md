@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript
+type:: Typescript,Utility
 alias:: Record
 
 - ## Record<Keys, Type>
