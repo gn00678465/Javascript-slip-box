@@ -1,5 +1,5 @@
 category:: Environment
-type:: certificate
+type:: Certificate
 alias:: mkcert
 
 - ## 建立憑證
