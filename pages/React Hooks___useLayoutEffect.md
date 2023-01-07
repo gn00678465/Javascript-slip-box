@@ -1,5 +1,5 @@
 category:: Programing
-type:: react,hooks
+type:: React,Hooks
 alias:: useLayoutEffect
 
 - > `useLayoutEffect` 觸發時機於畫面 render 之前

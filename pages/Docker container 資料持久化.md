@@ -1,5 +1,5 @@
 category:: Environment
-type:: docker
+type:: Docker
 
 - ## 概述
 - Docker 將資料儲存於 container 外的方法

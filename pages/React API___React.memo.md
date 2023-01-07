@@ -1,5 +1,5 @@
 category:: Programing
-type:: react,API
+type:: React,API
 alias:: React.memo
 
 - > 將元件 re-render 方式由**當父層元件 re-render 時，子層元件就會跟著 re-render**

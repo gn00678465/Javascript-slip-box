@@ -1,5 +1,5 @@
 category:: Environment
-type:: docker,windows
+type:: Docker,Windows
 alias:: Docker-desktop 空間不足
 
 - shutdown docker-desktop

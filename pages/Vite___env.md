@@ -1,3 +1,7 @@
+category:: Environment
+type:: Vite,Config
+alias
+
 - ## Env Variables
 	- > Vite 的環境變數使用特定的 Object `import.meta.env` exposes 出來，在開發的時候可以使用這個變數
 	- `import.meta.env.MODE`: {string} 當前的模式

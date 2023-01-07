@@ -1,5 +1,5 @@
 category:: Programing
-type:: react,hooks
+type:: React,Hooks
 alias:: useState
 
 - ```typescript

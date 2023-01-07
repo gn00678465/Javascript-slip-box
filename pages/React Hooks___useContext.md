@@ -1,5 +1,5 @@
 category:: Programing
-type:: react,Hooks
+type:: React,Hooks
 alias:: useContext
 
 - ```typescript

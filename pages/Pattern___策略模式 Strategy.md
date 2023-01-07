@@ -15,9 +15,9 @@
 	  function useStrategy(type) {
 	    // 變化的
 	    const strategy: Array<Strategy> = [
-	      [type === 'A', () => { //do A }],
-	      [type === 'B', () => { //do B }],
-	      [type === 'C', () => { //do C }]
+	      [type === 'A', () => { /* do A */ }],
+	      [type === 'B', () => { /* do B */ }],
+	      [type === 'C', () => { /* do C */ }]
 	    ];
 	  
 	    execStrategy(strategy);
