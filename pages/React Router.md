@@ -34,7 +34,7 @@ version:: 6.x
 	  ```
 	- `Routes`: 必須在所有 `Route` 的最外層
 	- `Route`:  定義路徑與對應的 component
-		- `path`：定義路徑
+		- `path`：(string | object)定義路徑
 		- `element`：定義對應的 component
 - ## 切換路由
 	- 使用 Link component 來切換路由
@@ -44,16 +44,17 @@ version:: 6.x
 	  
 	  <Link to="/"">Link</Link>
 	  ```
-	- `to`: 要切換到的路由路徑
+	- `to`: (string | object)要切換到的路由路徑
 - ## 巢狀路由
 	- 使用巢狀路由需要將 `Route` 包在 `Route` 中
-	-
+	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示內層的 component
 	- ```jsx
 	  <Route path="/nested" element={<Nested />}>
 	  	<Route index element={/* import component */}></Route>
-	      <Route path="/page" element={/* import component */}></Route>
+	      <Route path="page" element={/* import component */}></Route>
 	  </Route>
 	  ```
+		- `index`: (boolean) 預設載入的路由
 	- **Nested.tsx**
 	- ```jsx
 	  import { Outlet } from 'react-router-dom';
@@ -64,5 +65,6 @@ version:: 6.x
 	    )
 	  }
 	  ```
+-
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
