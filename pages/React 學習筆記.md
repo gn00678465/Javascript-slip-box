@@ -4,6 +4,7 @@ type:: React
 alias:: React 學習筆記
 
 - ## Intro basic
+  collapsed:: true
 	- ### JSX 與 HTML 的標籤屬性
 		- `class` 須改為 `className`
 		- `inline style` 須使用 `object` 寫法
@@ -19,6 +20,7 @@ alias:: React 學習筆記
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
 - ## Component
+  collapsed:: true
 	- component 必須以**大寫**開頭
 	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
 		- `[property]="value"` 傳入以 string 為主
@@ -33,12 +35,14 @@ alias:: React 學習筆記
 		  <Child>pass data</Child>
 		  ```
 - ## Hooks
+  collapsed:: true
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[React Hooks/useState]]
 	- [[React Hooks/useEffect]]
 	- [[React Hooks/useRef]]
 	- [[React Hooks/useMemo]]
 - ## API
+  collapsed:: true
 	- [[React API/React.memo]]
 - ## 狀態管理
 	- [[React API/createContext]]
