@@ -61,10 +61,20 @@ version:: 6.x
 	  
 	  export default function Nested() {
 	    return (
-	    	<div><Outlet /></div>
+	    	<div><Outlet context={/* pass value */} /></div>
 	    )
 	  }
 	  ```
--
+	- ### 資料傳遞 (useOutletContext)
+		- 在父層 component `Outlet` 加上一個屬性 `context`，並帶入要傳遞的值
+		- 在需要接收資料的子層中引入 `useOutletContext`
+			- ```jsx
+			  import { useOutletContext } from "react-router-dom";
+			  
+			  export function Context() {
+			    const context = useOutletContext();
+			    return (<div></div>)
+			  }
+			  ```
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
