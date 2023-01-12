@@ -1,7 +1,7 @@
 category:: Programing
 type:: React,Router
 alias:: React Router
-title:: React Router
+version:: 6.x
 
 - ## Install
 	- ```bash
@@ -9,9 +9,27 @@ title:: React Router
 	  ```
 - ## 建立 Router
 	- ```jsx
-	  import { BrowserRouter } from 'react-router-dom';
+	  import * as React from "react";
+	  import * as ReactDOM from "react-dom";
+	  import { BrowserRouter } from "react-router-dom";
 	  
-	  <BrowserRouter>
-	  	<App />
-	  </BrowserRouter>
+	  ReactDOM.render(
+	    <BrowserRouter>
+	      {/* The rest of your app goes here */}
+	    </BrowserRouter>,
+	    root
+	  );
 	  ```
+	- **App.tsx**
+	- ```jsx
+	  import { Routes, Route } from 'react-router-dom';
+	  
+	  export default function App() {
+	    return (
+	    	<Routes>
+	        <Route path="/" element={/* import component */}></Route>
+	      </Routes>
+	    )
+	  }
+	  ```
+	- ``
