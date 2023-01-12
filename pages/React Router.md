@@ -32,4 +32,18 @@ version:: 6.x
 	    )
 	  }
 	  ```
-	- ``
+	- `Routes`: 必須在所有 `Route` 的最外層
+	- `Route`:  定義路徑與對應的 component
+		- `path`：定義路徑
+		- `element`：定義對應的 component
+	- **切換頁面**
+	- ```jsx
+	  import { Link } from "react-router-dom";
+	  
+	  <Link to="/"">Link</Link>
+	  ```
+- ## 巢狀路由
+	-
+	-
+- ## Reference
+	- [Office Website](https://reactrouter.com/en/main)
