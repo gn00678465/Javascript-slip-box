@@ -93,6 +93,9 @@ version:: 6.x+
 	- [[React Rputer/Hooks/useSearchParams]]
 	- [[React Router/Hooks/useNavigate]]
 - ## Other
-	- [[404 頁面]]
+	- 404 頁面
+		- ```tsx
+		  <Route path="*" element={/* import 404 component */}></Route>
+		  ```
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
