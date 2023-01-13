@@ -67,10 +67,9 @@ version:: 6.x+
 	    )
 	  }
 	  ```
-	- ### 資料傳遞 (useOutletContext)
-		- 在父層 component `Outlet` 加上一個屬性 `context`，並帶入要傳遞的值
-		- 在需要接收資料的子層中引入 `useOutletContext`
-			-
+	- ### 資料傳遞
+		- [[useOutletContext]]
 - ## Hooks
+	- [[React Router Hooks/useOutletContext]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)

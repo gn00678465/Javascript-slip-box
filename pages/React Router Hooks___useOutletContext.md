@@ -7,8 +7,9 @@ alias:: useOutletContext
 - 在需要接收資料的子層中引入 `useOutletContext`
 - ```jsx
   import { useOutletContext } from "react-router-dom";
-  - export function Context() {
-  const context = useOutletContext();
-  return (<div></div>)
+  
+  export function Context() {
+    const context = useOutletContext();
+    return (<div></div>)
   }
   ```
