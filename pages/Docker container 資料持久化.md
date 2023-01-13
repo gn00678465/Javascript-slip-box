@@ -1,5 +1,6 @@
 category:: Environment
 type:: Docker
+alias:: Docker container 資料持久化
 
 - ## 概述
 - Docker 將資料儲存於 container 外的方法

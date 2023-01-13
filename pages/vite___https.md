@@ -1,5 +1,5 @@
 category:: Environment
-type:: Vite,Config
+type:: Vite, Config
 alias:: vite 使用 https 認證
 
 - ## vite 使用 https 認證

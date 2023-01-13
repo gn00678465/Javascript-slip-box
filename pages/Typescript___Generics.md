@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript,Utility
+type:: Typescript, Utility
 alias:: Generics(泛型)
 
 - 宣告一 **`Function`**、**`Interface`**、**`class`**，不預先指定具體的型別，而在使用時再給予實際的型別。

@@ -1,5 +1,5 @@
 category:: Programing
-type:: React,API
+type:: React, API
 alias:: createContext
 
 - ```typescript

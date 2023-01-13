@@ -1,5 +1,5 @@
 category:: Environment
-type:: Vite,Config
+type:: Vite, Config
 alias:: Vite 環境變數
 
 - ## Env Variables

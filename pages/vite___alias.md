@@ -1,5 +1,5 @@
 category:: Environment
-type:: Vite,Config
+type:: Vite, Config
 alias:: alias
 
 - ### vite
