@@ -6,7 +6,7 @@ alias:: useRef
   const refContainer = useRef(initialValue);
   // { current: initialValue }
   ```
-- > 應用 call by reference
+- > 應用 call by reference (傳參考特性)
 - `useRef` 回傳一個 mutable 的 ref object，`.current` 屬性被初始為傳入的參數（`initialValue`）
 	- **更新 current 值並不會觸發 re-render**
 	- 可以取得 Previous 的值

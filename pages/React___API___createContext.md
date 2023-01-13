@@ -21,6 +21,6 @@ alias:: createContext
 		- 可以巢狀使用 `Context.Provider`
 		- value 更新時，下層的 `conssumer` 必定會 re-render
 	- `Consumer`: 接收上層 `Provider` 傳下來的值
-- 使用 [[React Hooks/useContext]] 取得特定 `Provider` 傳下來的值
+- 使用 [[React/Hooks/useContext]] 取得特定 `Provider` 傳下來的值
 - ## Reference
 	- [ I Want To Know React - Context 語法](https://ithelp.ithome.com.tw/articles/10252519)

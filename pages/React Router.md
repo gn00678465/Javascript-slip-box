@@ -78,7 +78,6 @@ version:: 6.x+
 	- ### 資料傳遞
 		- [[useOutletContext]]
 - ## Hooks
-  collapsed:: true
-	- [[React Router Hooks/useOutletContext]]
+	- [[React Router/Hooks/useOutletContext]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
