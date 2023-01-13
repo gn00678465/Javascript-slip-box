@@ -50,15 +50,15 @@ version:: 6.x+
 		- ```tsx
 		  import { Link } from "react-router-dom";
 		  
-		  <Link to="/"">Link</Link>
+		  <Link to="/">Link</Link>
 		  ```
 		- `to`: (string | object)要切換到的路由路徑
 	- ### `NavLink`
 		- ```tsx
-		  <NavLink className={({ isActive }) => { return /* css */ }}></NavLink>
+		  <NavLink to="/" className={({ isActive }) => { return /* css */ }}></NavLink>
 		  ```
 		- 預設會加入 `active` 的 className
-		- **className** or style 可帶入 function 自訂要使用的 className
+		- **className** or **style** 可帶入 function 自訂要使用的 className
 - ## Nested Router 巢狀路由
 	- 使用巢狀路由需要將 `Route` 包在 `Route` 中
 	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示子層的 component
@@ -91,5 +91,8 @@ version:: 6.x+
 	- [[React Router/Hooks/useOutletContext]]
 	- [[React Router/Hooks/useParams]]
 	- [[React Rputer/Hooks/useSearchParams]]
+	- [[React Router/Hooks/useNavigate]]
+- ## Other
+	- [[404 頁面]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
