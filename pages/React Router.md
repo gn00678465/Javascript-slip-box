@@ -1,7 +1,8 @@
+id:: 63c0a348-2799-4311-ab7a-f821a61943d2
 category:: Programing
-type:: React,Router
+type:: React, Router
 alias:: React Router
-version:: 6.x
+version:: 6.x+
 
 - ## Install
 	- ```bash
@@ -20,6 +21,7 @@ version:: 6.x
 	    root
 	  );
 	  ```
+	- ((63c0a3b9-b548-4892-9d52-2bb11b61a546))
 	- **App.tsx**
 	- ```jsx
 	  import { Routes, Route } from 'react-router-dom';
@@ -76,5 +78,9 @@ version:: 6.x
 			    return (<div></div>)
 			  }
 			  ```
+- ## Hooks
+- ## BrowserRouter 與 HashRouter 的差異
+  id:: 63c0a3b9-b548-4892-9d52-2bb11b61a546
+	- **MemoryRouter**: 不讀寫瀏覽器的網址列的狀況下導航頁面
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)

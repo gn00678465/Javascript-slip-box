@@ -2,6 +2,7 @@ id:: 63b0def7-3b40-4903-b8c2-502d3dff5ec1
 category:: Programing
 type:: React
 alias:: React 學習筆記
+version:: 18.x+
 
 - ## Intro basic
   collapsed:: true
@@ -34,18 +35,21 @@ alias:: React 學習筆記
 		  
 		  <Child>pass data</Child>
 		  ```
-- ## Hooks
+- ## React Hooks
   collapsed:: true
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[React Hooks/useState]]
 	- [[React Hooks/useEffect]]
 	- [[React Hooks/useRef]]
 	- [[React Hooks/useMemo]]
-- ## API
+	- ### 狀態管理
+		- [[React API/createContext]]
+		- [[React Hooks/useContext]]
+		- [[React Hooks/useReducer]]
+- ## React API
   collapsed:: true
 	- [[React API/React.memo]]
+- ## React Router
+	- {{embed [[React Router]]}}
 - ## 狀態管理
-  collapsed:: true
-	- [[React API/createContext]]
-	- [[React Hooks/useContext]]
-	- [[React Hooks/useReducer]]
+	- Redux
