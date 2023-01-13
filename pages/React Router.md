@@ -6,9 +6,15 @@ version:: 6.x+
 
 - ## Install
 	- ```bash
+	  # npm
+	  npm install react-dom-router
+	  # yarn
+	  yarn add react-dom-router
+	  # pnpm
 	  pnpm add react-dom-router
 	  ```
 - ## 建立 Router
+  collapsed:: true
 	- ```jsx
 	  import * as React from "react";
 	  import * as ReactDOM from "react-dom";
@@ -39,6 +45,7 @@ version:: 6.x+
 		- `path`：(string | object)定義路徑
 		- `element`：定義對應的 component
 - ## 切換路由
+  collapsed:: true
 	- 使用 Link component 來切換路由
 	- `Link` 必須放在 `BrowserRouter` 內部
 	- ```jsx
@@ -47,9 +54,10 @@ version:: 6.x+
 	  <Link to="/"">Link</Link>
 	  ```
 	- `to`: (string | object)要切換到的路由路徑
-- ## 巢狀路由
+- ## Nested Router 巢狀路由
+  collapsed:: true
 	- 使用巢狀路由需要將 `Route` 包在 `Route` 中
-	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示內層的 component
+	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示子層的 component
 	- ```jsx
 	  <Route path="/nested" element={<Nested />}>
 	  	<Route index element={/* import component */}></Route>
@@ -70,6 +78,7 @@ version:: 6.x+
 	- ### 資料傳遞
 		- [[useOutletContext]]
 - ## Hooks
+  collapsed:: true
 	- [[React Router Hooks/useOutletContext]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
