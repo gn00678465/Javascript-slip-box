@@ -28,11 +28,11 @@ version:: 3.x+
 	- `query`: 帶入搜尋設定
 - ## Useage
 	- ```typescript
-	  const modules = import.meta.glob('./**.ts', { eager: true });
+	  const modules: unknown[] = import.meta.glob('./**.ts', { eager: true });
 	  
-	  for (module in modules) {
-	    console.log(module)
-	  }
+	  Object.keys(modules).forEach((module) => {
+	    /** do something */
+	  })
 	  ```
 - ## Reference
 	- [Glob Import](https://vitejs.dev/guide/features.html#glob-import)
