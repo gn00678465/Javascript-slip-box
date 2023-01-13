@@ -14,7 +14,7 @@ version:: 3.x+
 	- 排除特定(`string[]`): 要排除的比對項目前綴加上 **`!`** , `['pattern_1', '!pattern_2']`
 - **options**
 	- ```typescript
-	  interface GlobOptions {
+	  interface ImportGlobOptions {
 	    eager?: boolean;
 	    as?: 'raw' | 'url';
 	    import?: string | 'default';
@@ -36,3 +36,4 @@ version:: 3.x+
 	  ```
 - ## Reference
 	- [Glob Import](https://vitejs.dev/guide/features.html#glob-import)
+	- [importGlob.d.ts](https://github.com/vitejs/vite/blob/10757b84009b27744b0645b75e7951bbbac6a928/packages/vite/types/importGlob.d.ts)
