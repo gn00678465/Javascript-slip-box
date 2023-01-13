@@ -14,4 +14,12 @@ alias:: Conditional Type
 	  type A = Flatten<string[]>;  // A 為 string type
 	  type B = Flatten<number>;  // B 為 number type
 	  ```
-	- > T[number] 使用的是 indexed 的方式來存取某陣列型別內元素的型別
+	- > `T[number]` 是使用 indexed 的方式來存取某陣列型別內元素的型別
+	- Wrap
+	- ```ts
+	  type Wrap<T> = T extends { length: number } ? [T] : T;
+	  type A = Wrap<string>;  // A 為 string[] type
+	  ```
+- ## Reference
+	- [Conditional Type](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#conditional-type-constraints)
+	- [[TS] Type Manipulation](https://pjchender.dev/typescript/ts-type-manipulation/)
