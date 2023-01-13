@@ -81,6 +81,7 @@ version:: 6.x+
 	  <Route path=":[params]" element={/* import component */}></Route>
 	  ```
 	- `params`: 名稱可以自訂
+	- component 內引入 [[React Router/Hooks/useParams]] 即可取得資料
 - ## Hooks
 	- [[React Router/Hooks/useOutletContext]]
 	- [[React Router/Hooks/useParams]]
