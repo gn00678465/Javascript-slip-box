@@ -1,6 +1,7 @@
 category:: Environment
 type:: Vite, Config
 alias:: vite 使用 https 認證
+version:: 3.x+
 
 - ## vite 使用 https 認證
 - 需先安裝 [[Certificate/mkcert]] 產生本地端憑證

@@ -1,4 +1,6 @@
 category:: Environment
+type:: Git
+alias:: Git commit 的 type
 
 - **feat**: (Feature) 新增/修改功能
 - **fix**: (Bug fix) 修正 Bug

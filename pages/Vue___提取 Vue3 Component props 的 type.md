@@ -1,3 +1,8 @@
+category:: Programing
+type:: Vue, Typescript
+alias:: 提取 Vue3 Component props 的 type
+version:: 3.x+
+
 - ## Typescript - `InstanceType<Type>`
 	- ```typescript
 	  import Component from './Component.vue';
