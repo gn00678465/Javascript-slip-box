@@ -1,3 +1,5 @@
+category:: Environment
+
 - **feat**: (Feature) 新增/修改功能
 - **fix**: (Bug fix) 修正 Bug
 - **docs**: (Documentation) 新增/修改文件
