@@ -36,18 +36,19 @@ version:: 18.x+
 		  <Child>pass data</Child>
 		  ```
 - ## React Hooks
+  collapsed:: true
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
-	- [[React Hooks/useState]] #狀態管理
+	- [[React Hooks/useState]] #React狀態管理
 	- [[React Hooks/useEffect]]
 	- [[React Hooks/useRef]]
 	- [[React Hooks/useMemo]]
-	- [[React API/createContext]] #狀態管理
-	- [[React Hooks/useContext]] #狀態管理
-	- [[React Hooks/useReducer]] #狀態管理
+	- [[React API/createContext]] #React狀態管理
+	- [[React Hooks/useContext]] #React狀態管理
+	- [[React Hooks/useReducer]] #React狀態管理
 - ## React API
   collapsed:: true
 	- [[React API/React.memo]]
 - ## React Router
 	- {{embed [[React Router]]}}
-- ## 狀態管理
+- ## 3rd-Party 狀態管理
 	- Redux
