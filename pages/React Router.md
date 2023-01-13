@@ -55,7 +55,6 @@ version:: 6.x+
 	  ```
 	- `to`: (string | object)要切換到的路由路徑
 - ## Nested Router 巢狀路由
-  collapsed:: true
 	- 使用巢狀路由需要將 `Route` 包在 `Route` 中
 	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示子層的 component
 	- ```jsx
@@ -77,7 +76,13 @@ version:: 6.x+
 	  ```
 	- ### 資料傳遞
 		- [[useOutletContext]]
+- ## 動態路由
+	- ```tsx
+	  <Route path=":[params]" element={/* import component */}></Route>
+	  ```
+	- `params`: 名稱可以自訂
 - ## Hooks
 	- [[React Router/Hooks/useOutletContext]]
+	- [[React Router/Hooks/useParams]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
