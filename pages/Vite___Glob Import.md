@@ -9,7 +9,7 @@ version:: 3.x+
   ```
 - **pattern** (`string | string[]`): 匹配的檔案名稱，可帶入多組
 	- 路徑只支援：`./` 相對路徑、`/` 絕對路徑、使用 [`resolve.alias`](https://vitejs.dev/config/shared-options.html#resolve-alias) 所設定的路徑別名。
-	- 未設定 `config` 預設為動態載入且為 lazy-loaded, `() => import(/* matched file */)`
+	- 未設定 `config` 預設以動態且為 lazy-loaded 方式載入, `() => import(/* matched file */)`
 	- 匹配多組(`string[]`): `['pattern_1', 'pattern_2']`
 	- 排除特定(`string[]`): 要排除的比對項目前綴加上 **`!`** , `['pattern_1', '!pattern_2']`
 - **options**
