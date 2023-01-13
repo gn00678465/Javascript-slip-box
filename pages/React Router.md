@@ -45,15 +45,20 @@ version:: 6.x+
 		- `path`：(string | object)定義路徑
 		- `element`：定義對應的 component
 - ## 切換路由
-  collapsed:: true
-	- 使用 Link component 來切換路由
-	- `Link` 必須放在 `BrowserRouter` 內部
-	- ```jsx
-	  import { Link } from "react-router-dom";
-	  
-	  <Link to="/"">Link</Link>
-	  ```
-	- `to`: (string | object)要切換到的路由路徑
+	- ### `Link`
+		- 必須放在 `BrowserRouter` 內部
+		- ```tsx
+		  import { Link } from "react-router-dom";
+		  
+		  <Link to="/"">Link</Link>
+		  ```
+		- `to`: (string | object)要切換到的路由路徑
+	- ### `NavLink`
+		- ```tsx
+		  <NavLink className={({ isActive }) => { return /* css */ }}></NavLink>
+		  ```
+		- 預設會加入 `active` 的 className
+		- **className** or style 可帶入 function 自訂要使用的 className
 - ## Nested Router 巢狀路由
 	- 使用巢狀路由需要將 `Route` 包在 `Route` 中
 	- 在巢狀路由的父層 component，必須加上 `<Outlet />` 的 component 才可以顯示子層的 component
