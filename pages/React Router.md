@@ -21,7 +21,7 @@ version:: 6.x+
 	    root
 	  );
 	  ```
-	- ((63c0a3b9-b548-4892-9d52-2bb11b61a546))
+	- [[React Router/BrowserRouter 與 HashRouter 的差異]]
 	- **App.tsx**
 	- ```jsx
 	  import { Routes, Route } from 'react-router-dom';
@@ -70,17 +70,7 @@ version:: 6.x+
 	- ### 資料傳遞 (useOutletContext)
 		- 在父層 component `Outlet` 加上一個屬性 `context`，並帶入要傳遞的值
 		- 在需要接收資料的子層中引入 `useOutletContext`
-			- ```jsx
-			  import { useOutletContext } from "react-router-dom";
-			  
-			  export function Context() {
-			    const context = useOutletContext();
-			    return (<div></div>)
-			  }
-			  ```
+			-
 - ## Hooks
-- ## BrowserRouter 與 HashRouter 的差異
-  id:: 63c0a3b9-b548-4892-9d52-2bb11b61a546
-	- **MemoryRouter**: 不讀寫瀏覽器的網址列的狀況下導航頁面
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
