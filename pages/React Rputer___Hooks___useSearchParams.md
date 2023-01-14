@@ -8,6 +8,7 @@ alias:: useSearchParams
   const [searchParams, setSearchParams] = useSearchParams();
   ```
 - **取得參數**
-	- `search`
-		- `searchParams.get(query)`
-- `setSearchParams({ query: value }
+	- `searchParams.get(query: string)` => `string`
+	- `searchParams.getAll(query: string)` => `string[]`
+- **設定參數**
+	- `setSearchParams({ query: value })`
