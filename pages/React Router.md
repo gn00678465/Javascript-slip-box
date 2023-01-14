@@ -83,7 +83,9 @@ version:: 6.x+
 		- [[useOutletContext]]
 - ## 動態路由
 	- ```tsx
-	  <Route path=":[params]" element={/* import component */}></Route>
+	  <Route path="[path]" element={/* import component */}>
+	  	<Route path=":[params]" element={/* import component */}></Route>
+	  </Route>
 	  ```
 	- `params`: 名稱可以自訂
 	- component 內引入 [[React Router/Hooks/useParams]] 即可取得資料
