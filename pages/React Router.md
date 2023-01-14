@@ -14,7 +14,6 @@ version:: 6.x+
 	  pnpm add react-dom-router
 	  ```
 - ## 建立 Router
-  collapsed:: true
 	- ```jsx
 	  import * as React from "react";
 	  import * as ReactDOM from "react-dom";
@@ -29,7 +28,8 @@ version:: 6.x+
 	  ```
 	- [[React Router/BrowserRouter 與 HashRouter 的差異]]
 	- **App.tsx**
-	- ```jsx
+	- id:: 63c15eda-2060-403c-b7cd-08cd03a1f7bd
+	  ```jsx
 	  import { Routes, Route } from 'react-router-dom';
 	  
 	  export default function App() {
@@ -42,7 +42,9 @@ version:: 6.x+
 	  ```
 	- `Routes`: 必須在所有 `Route` 的最外層
 	- `Route`:  定義路徑與對應的 component
+	  id:: 63c15eda-699f-49b4-9ec0-daab789c5359
 		- `path`：(string | object)定義路徑
+		  id:: 63c15eda-1aeb-4b28-b703-ec531e810149
 		- `element`：定義對應的 component
 - ## 切換路由
 	- ### `Link`
