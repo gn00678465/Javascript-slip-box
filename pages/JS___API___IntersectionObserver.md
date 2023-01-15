@@ -13,8 +13,8 @@ alias:: IntersectionObserver
 		- `threshold: number`:
 - **Methods**
 	- `observer(target: HTMLElement)`:
-	- `disconnect()`:
 	- `unobserve(target: HTMLElement)`:
+	- `disconnect()`:
 	- `takeRecords()`:
 - ## Reference
 	- [Intersection Observer API - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
