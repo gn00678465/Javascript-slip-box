@@ -19,7 +19,7 @@ alias:: IntersectionObserver
 			- **0**(預設值): 當相交範圍的比例「開始大於 0%」或「開始小於 0%」 的瞬間會觸發。
 			- **1**: 當相交範圍的比例「開始大於 100%」或「開始小於 100%」 的瞬間會觸發。
 - **Methods**
-	- `observer(target: HTMLElement)`: 指定觀察 Dom 元素
+	- `observer(target: HTMLElement)`: 觀察指定的 Dom 元素
 	- `unobserve(target: HTMLElement)`: 註銷某 Dom 元素的觀察
 	- `disconnect()`: 一次性的註銷所有元素的觀察
 	- `takeRecords()`:
