@@ -1,0 +1,6 @@
+- ## Type Manipulation
+	- [[Conditional Type]]
+	- [[Generics(泛型)]]
+- ## Utility
+	- [[Partial]]
+	- [[Record]]

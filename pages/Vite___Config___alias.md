@@ -43,4 +43,4 @@ alias:: alias
 	  ```
 -
 - ## Reference
-- [How to configure import aliases in Vite, TypeScript and Jest](https://divotion.com/blog/how-to-configure-import-aliases-in-vite-typescript-and-jest)
+	- [How to configure import aliases in Vite, TypeScript and Jest](https://divotion.com/blog/how-to-configure-import-aliases-in-vite-typescript-and-jest)
