@@ -9,7 +9,6 @@ alias:: MutationObserver
 - **params**
 	- `callback: (entries, owner) => viod`
 		- `entries:  MutationRecord[]`: 觀察 Dom 元素的子節點、內容、等屬性變動資訊，[MutationRecord](https://developer.mozilla.org/en-US/docs/Web/API/MutationRecord)
-		- `owner: MutationObserver`: 呼叫 callback 的 MutationObserver 實體
 - **Methods**
 	- `observe(target, options)`: 觀察指定的 Dom 元素
 		- `target: HTMLElement`: Dom 元素
