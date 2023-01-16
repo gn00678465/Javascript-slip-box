@@ -39,16 +39,17 @@ version:: 18.x+
 		  ```
 - ## React Hooks
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
-	- [[React/Hooks/useState]] #React狀態管理
+	- [[React/Hooks/useState]]
 	- [[React/Hooks/useEffect]]
 	- [[React/Hooks/useRef]]
 	- [[React/Hooks/useMemo]]
-	- [[React/Hooks/useContext]] #React狀態管理
-	- [[React/Hooks/useReducer]] #React狀態管理
+	- [[React/Hooks/useContext]]
+	- [[React/Hooks/useReducer]]
 - ## React API
 	- [[React/API/React.memo]]
-	- [[React/API/createContext]] #React狀態管理
+	- [[React/API/createContext]]
 - ## React Router
 	- {{embed [[React Router]]}}
-- ## 3rd-Party 狀態管理
+- ## Third Party 狀態管理
 	- Redux
+	- Zustand
