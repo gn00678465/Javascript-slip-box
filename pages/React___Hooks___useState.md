@@ -3,9 +3,9 @@ type:: React, Hooks
 alias:: useState
 
 - ```typescript
-  const [num, setNum] = useState(0);
+  const [value, setValue] = useState(initialValue);
   ```
-- **Param**
+- **Parameters**
 	- `initialValue`: 可帶入基本型別
 - **Return**
 	- 使用解構方式取得的第 1 項，為當下的 state，且為 **read-only** 不可直接針對 state 做操作

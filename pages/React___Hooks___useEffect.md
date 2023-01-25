@@ -5,7 +5,7 @@ alias:: useEffect
 - ```typescript
   useEffect(function() {}, [effect])
   ```
-- **Parameter**
+- **Parameters**
 	- `callback function` 作為副作用更新後要執行的函式
 	- `[effect]` 監聽副作用的變化
 		- 未帶入 effect: 會一直重複執行 callback function
