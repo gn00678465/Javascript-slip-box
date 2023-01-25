@@ -9,5 +9,5 @@
 	- **fragment**: 片段（以「`#`」字元為起點)
 -
 - ## 程式語言取得路徑的方式
-	- React Router ((63c52c81-0490-4fd0-8e49-9edda37a996d))
-	- Node.js ((取得))
+	- React Router: ((63c52c81-0490-4fd0-8e49-9edda37a996d))
+	- Node.js: ((63d12244-be41-41d1-b97e-bed4a29b2a66))
