@@ -21,5 +21,5 @@ alias:: Express.js 取得 URL 路徑參數
 	    const query = req.query;
 	  });
 	  ```
-	- 路徑後方帶入以 `?key=value` 格式的字串，多個參數以「`&`」隔開
+	- 路徑後方帶入以 `?` 開頭格式為 `key=value` 的字串，多個參數以「`&`」隔開
 	- 從 `req.query` 內取得上面所自訂的 query
