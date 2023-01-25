@@ -12,7 +12,7 @@ alias:: Express.js 取得 URL 路徑參數
 	  ```
 	- **param**: 可以為自訂路徑名稱
 	- 從 `req.params` 內取得上面所自訂的路徑名稱
-- ## 取得 URL query
+- ## 取得 URL query 參數
 	- ```javascript
 	  const app = express();
 	  
