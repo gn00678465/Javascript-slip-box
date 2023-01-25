@@ -82,6 +82,7 @@ version:: 6.x+
 	- ### 資料傳遞
 		- [[useOutletContext]]
 - ## 動態路由
+  id:: 63c52c81-0490-4fd0-8e49-9edda37a996d
 	- ```tsx
 	  <Route path=":[params]" element={/* import component */}></Route>
 	  ```
