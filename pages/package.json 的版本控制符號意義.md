@@ -4,15 +4,15 @@ alias:: package.json 的版本控制符號意義
 
 ## 語意化版本號
 	- 版本號: `x.xx.xx`
-	- 第一段為大版本號
-	- 第二段為次要版本號: 主要為功能更新
-	- 第三段為小修改: 修復BUG 等
 	- | Code status | Stage | Rule | Example version |
 	  | ---- | ---- | ---- |
 	  | First release | New product | Start with 1.0.0 | 1.0.0 |
 	  | Backward compatible bug fixes | Patch release | Increment the third digit | 1.0.1 |
 	  | Backward compatible new features | Minor release | Increment the middle digit and reset last digit to zero | 1.1.0 |
 	  | Changes that break backward compatibility | Major release | Increment the first digit and reset middle and last digits to zero | 2.0.0 |
+	- 第一段為大版本號
+	- 第二段為次要版本號: 主要為功能更新
+	- 第三段為小修改: 修復BUG 等
 ## 版本控制符號
 	- `^`: 鎖住**第一段**不得變更。如`^1.2.2`，則安裝範圍是`>=1.2.2` 且 `<2.0.0`。即須符合`1.*.*`。
 	- `~`: 鎖住**第二段**不得變更。如`~1.2.2`，則安裝範圍是`>=1.2.2`且`<1.3.0`。即須符合`1.2.*`。
