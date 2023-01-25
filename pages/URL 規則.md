@@ -1,4 +1,10 @@
 - > **U**niform **R**esource **L**ocator (**URL**)
 - ## 標準格式
-	- ````
-	  URI = scheme ":" ["//" authority] path ["?" query] ["#" fragment]
+	- `[scheme]://[host]:[port]/[path]?[query]#[fragment]`
+	- **scheme**: 傳送協定
+	- **host**: 伺服器（通常為域名，有時為IP位址）
+	- **port**: 埠號（以數字方式表示，若為預設值可省略）
+	- **path**: 路徑（以「`/`」字元區別路徑中的每一個目錄名稱）
+	- **query**: 查詢（以「?」字元為起點，每個參數以「&」隔開，再以「=」分開參數名稱與資料，通常以UTF-8的URL編碼，避開字元衝突的問題）
+	- **fragment**: 片段（以「\#」字元為起點)
+	-
