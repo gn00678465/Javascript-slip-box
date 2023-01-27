@@ -43,6 +43,12 @@ alias:: Cookie、session
 			- ```javascript
 			  app.use(session(options);
 			  ```
-			-
+			- |屬性|Type|描述|
+			  |--|--|--|
+			  |secret|`string`|用來簽名存放在 cookie 的 sessionID|
+			  |name|`string`|存放在 cookie 的 Name，預設是 connect.sid|
+			  |saveUninitialized|`boolean`|`false`: 可以避免存放太多空的session進入session store|
+			  |resave|`boolean`|`true`: 無論session有沒有被修改過，都會強制保存原本的session在session store|
+			  |cookie|`object`|存放在 cookie 的設定|
 - ## Reference
 	- [白話 Session 與 Cookie：從經營雜貨店開始](https://hulitw.medium.com/session-and-cookie-15e47ed838bc)
