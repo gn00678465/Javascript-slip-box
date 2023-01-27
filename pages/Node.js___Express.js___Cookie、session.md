@@ -9,7 +9,7 @@ alias:: Cookie、session
 	- ### Useage
 		- 需安裝 cookieParser
 			- ```bash
-			  npm i cookieParser
+			  npm install cookie-parser
 			  ```
 		- Example
 			- ```javascript
@@ -31,8 +31,18 @@ alias:: Cookie、session
 			  |Domain|`string`|指定網域|
 			  |Path|`string`|指定網域下的路徑|
 			  |Signed|`boolean`|啟用加簽，但 cookie-parser 也必須要有加簽的字串|
-- ## session
+- ## Session
 	- 暫存資料在伺服器記憶體內，重啟伺服器就會消失
 	- 可以搭配 cookie 和 DB  保留資料
 	- ### Useage
-		-
+		- 安裝
+			- ```bash
+			  npm install express-session
+			  ```
+		- 設定
+			- ```javascript
+			  app.use(session(options);
+			  ```
+			-
+- ## Reference
+	- [白話 Session 與 Cookie：從經營雜貨店開始](https://hulitw.medium.com/session-and-cookie-15e47ed838bc)
