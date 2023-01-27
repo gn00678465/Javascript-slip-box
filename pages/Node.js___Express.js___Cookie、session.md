@@ -1,6 +1,6 @@
 category:: Programing
 type:: Node.js
-alias:: Cookie、session
+alias:: Cookie、Session
 
 - ## Cookie
 	- 可存在 client 瀏覽器內，單一 value 的容量上限約 4k
