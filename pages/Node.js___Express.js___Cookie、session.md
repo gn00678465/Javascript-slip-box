@@ -10,4 +10,22 @@ alias:: Cookie、session
 	  |--|--|--|
 	  |HttpOnly|`boolean`|無法使用 Javascript 存取|
 	  |Secure|`boolean`|只要網站開頭不是 https 開頭的網站都沒有辦法獲得 Cookie 中的資訊|
+	  |Max-Age|`number`|指定 cookie 可存活的時間|
+	  |Expires|`string`|指定時間後 cookie 失效|
+	  |domain|`string`|指定網域|
+	  |path|`string`|指定網域下的路徑|
+	- 需安裝 cookieParser
+		- ```bash
+		  npm i cookieParser
+		  ```
+	- useage
+		- ```javascript
+		  app.use(cookieParser(<secret>));
+		  
+		  app.get('/', (req, res) => {
+		    let cookies = req.cookies; // 讀取
+		    res.cookie(name, value, options); // 寫入
+		    res.clearCookie('test'); // 刪除
+		  })
+		  ```
 - ## session
