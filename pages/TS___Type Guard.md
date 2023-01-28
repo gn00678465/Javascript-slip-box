@@ -1,4 +1,3 @@
--
 - > Type Guards allow you to narrow down the type of an object within a conditional block.
   > 將 type 限制成更小範圍的 type 的行為
 - ### typeof
