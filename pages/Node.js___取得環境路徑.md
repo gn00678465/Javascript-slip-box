@@ -18,5 +18,11 @@ alias:: 取得環境路徑
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
   ```
+- ## 在 ESM 中使用 `require`
+- ```javascript
+  import { createRequire } from "module";
+  const require = createRequire(import.meta.url);
+  ```
 - ## Reference
 	- [Alternative for __dirname in Node.js when using ES6 modules](https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-js-when-using-es6-modules)
+	- [How to import JSON files in ES modules (Node.js)](https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/)

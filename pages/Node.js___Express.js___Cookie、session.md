@@ -41,7 +41,7 @@ alias:: Cookie、Session
 			  ```
 		- 設定
 			- ```javascript
-			  app.use(session(options);
+			  app.use(session(options));
 			          
 			  app.get('/', (req, res) => {
 			    req.session[key] = [value] // 寫入
