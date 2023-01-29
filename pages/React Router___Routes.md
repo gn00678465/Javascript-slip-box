@@ -36,7 +36,7 @@ version:: 6.x+
 - ## Loader
 - version:: 6.4.x+
 - > 在 `Route` 可以設定一個 `loader` 並傳入一個 function，此 function 會在 `Route` render 前呼叫。
-  > **只支援 6.4 以上的 Data APIs**
+  > **只支援 6.4 以上的 Data APIs** [[Picking a Router]]
 	- ### params
 	- 在動態路由 (Dynamic Segments) 中設定的 loader，`:param` 會以 `params` 傳入 `loader` 的 function 中。
 	- ```jsx
