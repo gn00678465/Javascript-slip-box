@@ -14,7 +14,6 @@ version:: 6.x+
 	  pnpm add react-dom-router
 	  ```
 - ## 建立 Router
-  collapsed:: true
 	- ```jsx
 	  import * as React from "react";
 	  import * as ReactDOM from "react-dom";
