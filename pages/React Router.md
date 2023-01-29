@@ -13,36 +13,7 @@ version:: 6.x+
 	  # pnpm
 	  pnpm add react-dom-router
 	  ```
-- ## 建立 Router
-	- ```jsx
-	  import * as React from "react";
-	  import * as ReactDOM from "react-dom";
-	  import { BrowserRouter } from "react-router-dom";
-	  
-	  ReactDOM.render(
-	    <BrowserRouter>
-	      {/* The rest of your app goes here */}
-	    </BrowserRouter>,
-	    root
-	  );
-	  ```
-	- [[React Router/BrowserRouter 與 HashRouter 的差異]]
-	- **App.tsx**
-	- ```jsx
-	  import { Routes, Route } from 'react-router-dom';
-	  
-	  export default function App() {
-	    return (
-	    	<Routes>
-	        <Route path="/" element={/* import component */}></Route>
-	      </Routes>
-	    )
-	  }
-	  ```
-	- `Routes`: 必須在所有 `Route` 的最外層
-	- `Route`:  定義路徑與對應的 component
-		- `path`：(string | object)定義路徑
-		- `element`：定義對應的 component
+- {{embed [[React Router/Routes]]}}
 - ## 切換路由
 	- ### `Link`
 		- 必須放在 `BrowserRouter` 內部
@@ -97,5 +68,6 @@ version:: 6.x+
 		- ```tsx
 		  <Route path="*" element={/* import 404 component */}></Route>
 		  ```
+	- [[Picking a Router]]
 - ## Reference
 	- [Office Website](https://reactrouter.com/en/main)
