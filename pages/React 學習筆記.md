@@ -48,6 +48,7 @@ version:: 18.x+
 - ## React API
 	- [[React/API/React.memo]]
 	- [[React/API/createContext]]
+	- [[Lazy & Suspense]]
 - ## React Router
 	- {{embed [[React Router]]}}
 - ## Third Party 狀態管理
