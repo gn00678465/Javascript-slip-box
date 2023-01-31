@@ -11,7 +11,7 @@ version:: 0.22.0+
 	  const controller = new AbortController();
 	  
 	  axios.get('/api', {
-	    single: controller.single
+	    signal: controller.signal
 	  }).then((response) => {
 	  	// do...
 	  });
