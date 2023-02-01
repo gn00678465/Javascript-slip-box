@@ -6,7 +6,7 @@ alias:: structuredClone
 - ```javascript
   const deepClone = structuredClone(value[, options])
   ```
-- **Params**
+- **Parameters**
 	- `value`: 要拷貝的值，須為[結構複製支援的類型](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Structured_clone_algorithm#%E6%94%AF%E6%8C%81%E7%9A%84%E7%B1%BB%E5%9E%8B)
 	- `options`:
 		- `transfer`: 帶入 [transferable objects](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects) 類型的 Array

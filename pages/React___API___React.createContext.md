@@ -1,6 +1,6 @@
 category:: Programing
 type:: React, API
-alias:: createContext
+alias:: React.createContext
 
 - ```typescript
   const ContextStore = React.createContext(defaultValue);

@@ -6,7 +6,7 @@ alias:: ResizeObserver
 - ```javascript
   const observer = new ResizeObserver(callback);
   ```
-- **params**
+- **Parameters**
 	- `callback: (entries, owner) => viod`
 		- `entries:  ResizeObserverEntry[]`: 觀察的 Dom 元素尺寸變化的相關資訊，[ResizeObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry)
 - **Methods**

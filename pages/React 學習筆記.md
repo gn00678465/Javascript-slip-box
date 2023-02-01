@@ -46,8 +46,9 @@ version:: 18.x+
 	- [[React/Hooks/useContext]]
 	- [[React/Hooks/useReducer]]
 - ## React API
+	- [[React/API/React.createElement]]
 	- [[React/API/React.memo]]
-	- [[React/API/createContext]]
+	- [[React/API/React.createContext]]
 	- [[Lazy & Suspense]]
 - ## React Router
 	- {{embed [[React Router]]}}

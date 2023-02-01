@@ -22,7 +22,7 @@ alias:: useRoutes
     ]);
   export default () => routes
   ```
-- **Params**
+- **Parameters**
 	- `routes: RoutesObject[]`: 帶入與  Routes components 相同的結構(非 JSX)
 - **Return**
 	- 與 `Routes` 相同結構的 React DOM

@@ -6,7 +6,7 @@ alias:: IntersectionObserver
 - ```javascript
   const observer = new IntersectionObserver(callback, options);
   ```
-- **params**
+- **Parameters**
 	- `callback: (entries, owner) => viod`
 		- `entries:  IntersectionObserverEntry[]`: 關於觀察 Dom 與 可視範圍交互的相關資訊，[IntersectionObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 		- `owner: IntersectionObserver`: 呼叫 callback 的 IntersectionObserver 實體

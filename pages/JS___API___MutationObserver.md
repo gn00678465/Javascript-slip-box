@@ -6,7 +6,7 @@ alias:: MutationObserver
 - ```javascript
   const observer = new MutationObserver(callback)
   ```
-- **params**
+- **Parameters**
 	- `callback: (entries, owner) => viod`
 		- `entries:  MutationRecord[]`: 觀察 Dom 元素的子節點、內容、等屬性變動資訊，[MutationRecord](https://developer.mozilla.org/en-US/docs/Web/API/MutationRecord)
 - **Methods**

@@ -5,7 +5,7 @@ alias:: JSON.stringify
 - ```javascript
   JSON.stringify(value[, replace[, space]]);
   ```
-- **Params**
+- **Parameters**
 	- `value`: 要轉換為 JSON string 的值，可為 object 或其他的值。
 	- `replace`: 可以是一個函式也可以是一個陣列。
 		- `Function`: 帶入兩個參數，key 和 value，被序列化的值皆經此 function 處理。
