@@ -18,7 +18,7 @@ alias:: Window.getComputedStyle
 	- `getPropertyValue(property)`: 取得給定 CSS  property 的值
 		- **Parameters**:
 			- property: CSS  property (**不支援 Camel-Case**) 或 CSS 變數名稱
-		- **Return**
+		- **Return**: `string`
 			- CSS  property 值
 	- `setProperty(property, value)`
 		- **Parameters**:
