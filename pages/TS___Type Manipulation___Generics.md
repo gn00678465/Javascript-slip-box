@@ -59,5 +59,19 @@ alias:: Generics(泛型)
 	  
 	  cat(5);
 	  ```
+- ## Optional
+	- > 宣告的 Generics 設定為 `void`, 此 Generics 可不設定型別
+	- ```typescript
+	  type BaseFunctionType<T1, T2> = (a:T1, b:T2) => void;
+	  
+	  type FunctionType<T = void> = BaseFunctionType<{name: string}, T>;
+	  
+	  const someFunction:FunctionType = (a) => {
+	  	/* do something */
+	  }
+	  
+	  someFunction({ name: "Siraj" })
+	  
+	  ```
 - ## Reference
 	- [泛型 Generics](https://willh.gitbook.io/typescript-tutorial/advanced/generics)
