@@ -60,7 +60,7 @@ alias:: Generics(泛型)
 	  cat(5);
 	  ```
 - ## Optional
-	- > 宣告的 Generics 設定為 `void`, 此 Generics 可不設定型別
+	- > 當宣告的 Generics 使用預設值設為 `void`, 此 Generics 可不設定型別
 	- ```typescript
 	  type BaseFunctionType<T1, T2> = (a:T1, b:T2) => void;
 	  
@@ -70,7 +70,7 @@ alias:: Generics(泛型)
 	  	/* do something */
 	  }
 	  
-	  someFunction({ name: "Siraj" })
+	  someFunction({ name: "name" })
 	  
 	  ```
 - ## Reference
