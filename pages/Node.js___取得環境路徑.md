@@ -19,6 +19,7 @@ alias:: 取得環境路徑
   const __dirname = path.dirname(__filename);
   ```
 - ## 在 ESM 中使用 `require`
+- version:: 12.2.0+
 - ```javascript
   import { createRequire } from "module";
   const require = createRequire(import.meta.url);

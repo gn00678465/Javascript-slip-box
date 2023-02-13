@@ -3,7 +3,7 @@ type:: Typescript, Utility
 alias:: Partial
 
 - > 複製 `Type` 的結構並將內部的 properties 設為 optional
-- ## Partial<Type>
+- ## `Partial<Type>`
 	- ```typescript
 	  interface Todo {
 	    title: string;

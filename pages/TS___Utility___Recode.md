@@ -2,7 +2,7 @@ category:: Programing
 type:: Typescript, Utility
 alias:: Record
 
-- ## Record<Keys, Type>
+- ## `Record<Keys, Type>`
 	- ```typescript
 	  interface PageInfo {
 	    title: string;
