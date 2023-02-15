@@ -1,3 +1,7 @@
+category:: Environment
+type:: Nginx, Config
+alias:: Nginx config
+
 - ## config 設定檔路徑
   id:: 63d25f13-a939-4a6b-ac6b-2a207521ef1e
 	- 主要設定檔放置於 `/etc/nginx/nginx.conf`

@@ -1,6 +1,7 @@
 category:: Programing
 type:: Typescript, Utility
 alias:: Record
+id:: 63ecd5f7-d8d0-4435-8063-099c579305c4
 
 - ## `Record<Keys, Type>`
 	- ```typescript
