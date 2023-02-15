@@ -1,3 +1,7 @@
+category:: Environment
+type:: Docker
+alias:: Docker 與 Podman 的差異點
+
 - ## 架構圖
 	- **Docker**
 		- ![pasted-85.png](../assets/pasted-85_1676044478375_0.png){:height 369, :width 521}

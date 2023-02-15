@@ -1,4 +1,5 @@
 - ## config 設定檔路徑
+  id:: 63d25f13-a939-4a6b-ac6b-2a207521ef1e
 	- 主要設定檔放置於 `/etc/nginx/nginx.conf`
 	- 其他 domain 放置於 `/etc/nginx/conf.d/*.conf`
 	- 再於主設定檔新增
