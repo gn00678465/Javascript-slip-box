@@ -2,17 +2,21 @@ category:: Programing
 type:: Typescript, Utility
 alias:: Partial
 
-- > 複製 `Type` 的結構並將內部的 properties 設為 optional
 - ## `Partial<Type>`
+	- > 複製 `Type` 的結構並將內部的 properties 設為 optional
 	- ```typescript
 	  interface Todo {
 	    title: string;
 	    description: string;
-	  }
+	  };
 	  
-	  function updateTodo(data: Todo, newData: Partial<Todo>) {
-	    return { ...data, ...newData };
-	  }
+	  type PartialToDo = Partial<Todo>;
+	  ```
+- ### 實作
+	- ```typescript
+	  type MyPartial<T> = {
+	    [P in keyof T]?: T[P]
+	  };
 	  ```
 - ## Reference
 	- [Utility Types - Partial](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype)

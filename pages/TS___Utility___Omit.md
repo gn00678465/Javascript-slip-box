@@ -23,7 +23,7 @@ version:: 3.5+
 	- Mapped Types
 	- ```typescript
 	  type MyOmit<T> = {
-	    [P in T]: T[P];
+	    [P in keyof T]: T[P];
 	  }
 	  ```
 	- 透過 `Exclude` 將不需要的 keys 排除

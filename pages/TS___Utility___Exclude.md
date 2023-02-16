@@ -13,5 +13,5 @@ version:: 2.8+
 	  ```
 - ### 實作
 	- ```typescript
-	  type MyExclude<U, Members> = Members extends U ? never : T;
+	  type MyExclude<U, Members> = U extends Members ? never : T;
 	  ```
