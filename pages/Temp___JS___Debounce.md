@@ -3,7 +3,7 @@ type:: Javascript
 alias:: Debounce
 
 - > debounce(防抖)
-  > 在某段時間內只執行觸發的最後一次事件
+  > 在某段時間內只執行觸發的**最後一次**事件
 - ## 簡易 Debounce 實作
 	- Debounce 可帶入兩個參數
 		- `callback: (...args: unknown[]) => unknown`: 觸發的 function
@@ -16,6 +16,7 @@ alias:: Debounce
 	  function debounce(callback, delay = 1000) {
 	    // closure
 	    return function() {
+	      const context = this;
 	      const args = [].slice.call(arguments);
 	    }
 	  };
@@ -24,22 +25,24 @@ alias:: Debounce
 	- ```javascript
 	  function debounce(callback, delay = 1000) {
 	    return function() {
+	      const context = this;
 	      const args = [].slice.call(arguments);
 	      setTimeout(() => {
-	        callback.apply(this, args)
+	        callback.apply(context, args)
 	      }, delay)
 	    }
 	  };
 	  ```
-	- 當 closure 不斷重新觸發，就會重新開始計時
+	- 當 closure 不斷重新觸發，清除既有的 `setTimeout`，並重新開始計時
 	- ```javascript
 	  function debounce(callback, delay = 1000) {
 	    let timer;
 	    return function() {
+	      const context = this;
 	      const args = [].slice.call(arguments);
 	      if (timer) { clearTimeout(timer); }
 	      timer = setTimeout(() => {
-	        callback.apply(this, args)
+	        callback.apply(context, args)
 	      }, delay)
 	    }
 	  };
