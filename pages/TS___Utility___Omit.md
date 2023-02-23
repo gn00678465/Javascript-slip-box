@@ -5,6 +5,7 @@ version:: 3.5+
 
 - ## `Omit<Type, keys>`
 	- > 排除指定的屬性，並返回一個新的 Type
+	  > 與 [[Pick]] 互為相反
 	- ```typescript
 	  type Coord = {
 	    x: number;

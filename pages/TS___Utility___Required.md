@@ -16,6 +16,6 @@ version:: 2.1+
 - ### 實作
 	- ```typescript
 	  type MyRequired<T> = {
-	    [P in keyof T]: T[P]
+	    [P in keyof T]-?: T[P]
 	  };
 	  ```
