@@ -10,6 +10,7 @@ alias:: Generics(泛型)
 	  function createArray<T>(len: number, value: T):T[] {
 	    return [...new Array(len)].fill(value)
 	  };
+	  const fn = <T>(param: T) => {/** do something */}
 	  
 	  createArray<string>(5, 'a'); // ["a", "a", "a", "a", "a"]: string[]
 	  ```
