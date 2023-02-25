@@ -35,7 +35,7 @@ alias:: Generics(泛型)
 	  // 泛型 T 不一定包含屬性 length
 	  // Property 'length' does not exist on type 'T'.
 	  ```
-	- 可以使用 [[extends]] 針對泛型進行**約束**，只允許傳入包含某特定屬性或方法的變數。
+	- 可以使用 extends ((63f9f301-c0d3-4161-9399-80ecda1f0a22)) 針對泛型進行**約束**，只允許傳入包含某特定屬性或方法的變數。
 	- ```typescript
 	  interface L {
 	    length: number
@@ -61,6 +61,19 @@ alias:: Generics(泛型)
 	  };
 	  
 	  cat(5);
+	  ```
+- ## class
+	- ```typescript
+	  class Store<State> {
+	    private state: State;
+	    
+	    constructor(initState: State) {
+	      this.state = initState;
+	    }
+	    /**
+	    	other methods
+	    */
+	  }
 	  ```
 - ## Optional
 	- > 當宣告的 Generics 使用預設值設為 `void`, 此 Generics 可不設定型別
