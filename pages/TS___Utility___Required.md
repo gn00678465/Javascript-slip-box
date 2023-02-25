@@ -14,6 +14,7 @@ version:: 2.1+
 	  type RequiredProps = Required<Props>;
 	  ```
 - ### 實作
+	- > 使用 `-?` 將 optional 移除
 	- ```typescript
 	  type MyRequired<T> = {
 	    [P in keyof T]-?: T[P]
