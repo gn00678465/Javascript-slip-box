@@ -3,10 +3,9 @@ type:: Typescript
 alias:: Generics(泛型)
 
 - 宣告一 **`Function`**、**`Interface`**、**`class`**，不預先指定具體的型別，而在使用時再給予實際的型別。
-category:: Programing
-type:: Typescript
-alias:: Conditional Type
-
+  category:: Programing
+  type:: Typescript
+  alias:: Conditional Type
 - 宣告時給一不定型態，以 `<>` 包覆。
 - ## Function
 	- ```typescript
@@ -27,6 +26,7 @@ alias:: Conditional Type
 	  swap<number, string>([1, 'a']); // ["a", 1]: [string, number]
 	  ```
 - ## 型別約束
+	- > 使用 [[extends]]
 	- 當使用泛型變數時，**無法事先得知**型別，不能隨意操作屬性或方法：
 	- ```typescript
 	  function loggingIdentity<T>(arg: T): T {
