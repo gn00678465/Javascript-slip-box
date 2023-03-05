@@ -18,5 +18,14 @@ version:: 4.5+
 	- 需先判斷是否為 `undefined 或 null`
 	- 再判斷是否為 `Promise` 物件 or 是否為 nested `Promise` 物件
 	- ```typescript
-	  type MyAwaited<T> = T extends undefined | null ? T : 
+	  type MyAwaited<T> = T extends undefined | null
+	    ? T
+	    : T extends Record<any, any> & {
+	        then(onfulfilled: infer F, ...args: infer _): any;
+	      }
+	    ? F extends (val: infer V) => any
+	      ? Awaited<V>
+	      : never
+	    : T;
+	  
 	  ```
