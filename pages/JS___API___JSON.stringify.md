@@ -19,15 +19,15 @@ alias:: JSON.stringify
 - **Return**
 	- JSON string
 - ## 特性
-- 1.
-	- `undefined`、`function`、`symbol` 於 `object` 內轉換會被忽略
-	- `undefined`、`function`、`symbol` 於 `Array` 內轉換會替換成 `null`
-	- `undefined`、`function`、`symbol` 單獨轉換會回傳 `undefined`
-- 2. `new Number`、`new Boolean`、`new String` 轉換後會轉換為對應的原始值。
-  3. 以 `symbol` 作為屬性的轉換會完全忽略，使用 `replace` 參數也無效。
-  4. `NaN`、`Infinity`、`null` 轉換會替換成 `null`
-  5.當轉換值內有 `toJSON` 方法，會自動調用此方法
-  6. `Date` 內有內建 `toJSON` 方法，轉換會自動調用此方法，返回字串
-  7. 無法處理遞迴資料結構(裡面包含了自己的參考), 會拋出錯誤 `Converting circular structure to JSON`
-  8. 無法處理 JS 一些內建型別例如 `Map`, `Set`, `Date`, `RegExp`, `ArrayBuffer`
-  9. 無法處理 [`BigInt`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt) 類型，會拋出錯誤 `TypeError: Do not know how to serialize a BigInt`
+	- 1.
+		- `undefined`、`function`、`symbol` 於 `object` 內轉換會被忽略
+		- `undefined`、`function`、`symbol` 於 `Array` 內轉換會替換成 `null`
+		- `undefined`、`function`、`symbol` 單獨轉換會回傳 `undefined`
+	- 2. `new Number`、`new Boolean`、`new String` 轉換後會轉換為對應的原始值。
+	  3. 以 `symbol` 作為屬性的轉換會完全忽略，使用 `replace` 參數也無效。
+	  4. `NaN`、`Infinity`、`null` 轉換會替換成 `null`
+	  5.當轉換值內有 `toJSON` 方法，會自動調用此方法
+	  6. `Date` 內有內建 `toJSON` 方法，轉換會自動調用此方法，返回字串
+	  7. 無法處理遞迴資料結構(裡面包含了自己的參考), 會拋出錯誤 `Converting circular structure to JSON`
+	  8. 無法處理 JS 一些內建型別例如 `Map`, `Set`, `Date`, `RegExp`, `ArrayBuffer`
+	  9. 無法處理 [`BigInt`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt) 類型，會拋出錯誤 `TypeError: Do not know how to serialize a BigInt`
