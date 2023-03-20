@@ -4,7 +4,9 @@ alias:: Record
 version:: 2.1+
 
 - ## `Record<Keys, Type>`
-	- > 將一個物件結構的型別內所有的屬性以及值映射到另一個型別，並返回新的型別
+	- > Constructs an object type whose property keys are `Keys` and whose property values are `Type`. 
+	  This utility can be used to map the properties of a type to another type.
+	  >> 將一個物件結構的型別內所有的屬性以及值映射到另一個型別，並返回新的型別
 	- ```typescript
 	  type ApiKey = 'id' | 'createAt';
 	  type ApiDateRecord = Record<ApiKey, string>;
