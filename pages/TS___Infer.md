@@ -19,3 +19,6 @@ alias:: Infer
 	    ? P
 	    : never;
 	  ```
+- ### 內置型別
+	- [[Parameters]]
+	- [[ReturnType]]
