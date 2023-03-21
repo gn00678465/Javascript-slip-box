@@ -4,8 +4,9 @@ alias:: Pick
 version:: 2.1+
 
 - ## `Pick<Type, keys>`
-	- > 提取出指定的屬性，並返回一個新的 Type
-	  > 與 [[Omit]] 互為相反
+	- > Constructs a type by picking the set of properties `Keys` (string literal or union of string literals) from `Type`.
+	  >> 提取出指定的屬性，並返回一個新的 Type
+	  與 [[Omit]] 互為相反
 	- ```typescript
 	  type Coord = {
 	    x: number;
