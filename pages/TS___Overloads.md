@@ -30,3 +30,8 @@ alias:: Overloads
 	  add(1, 'a'); // 1a
 	  add('a', 1); // a1
 	  ```
+- ## 注意事項
+	- Ordering: 順序必須由嚴謹到不嚴謹
+	-
+- ## Reference
+	- [Overloads and Callbacks](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html#overloads-and-callbacks)
