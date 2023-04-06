@@ -17,23 +17,36 @@ version:: 16.0+
 	- 使用 `static getDerivedStateFromError()` 來 render fallback 的 UI，以及使用 `componentDidCatch()` 來記錄錯誤的資訊。
 - ## Usage
 	- ```typescript
-	  class ErrorBoundary extends React.Component {
-	    constructor(props) {
+	  import React, { Component, ErrorInfo, ReactNode } from 'react';
+	  
+	  interface Props {
+	    children?: ReactNode;
+	  }
+	  
+	  interface State {
+	    hasError: boolean;
+	  }
+	  
+	  class ErrorBoundary extends Component<Props, State> {
+	    public state: State = {
+	      hasError: false
+	    };
+	    constructor(props: Props) {
 	      super(props);
 	      this.state = { hasError: false };
 	    }
 	  
-	    static getDerivedStateFromError(error) {
+	    public static getDerivedStateFromError(error: Error): State {
 	      // 更新 state 以至於下一個 render 會顯示 fallback UI
 	      return { hasError: true };
 	    }
 	  
-	    componentDidCatch(error, errorInfo) {
+	    public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
 	      // 你也可以把錯誤記錄到一個錯誤回報系統服務
-	      logErrorToMyService(error, errorInfo);
+	      console.error('Uncaught error:', error, errorInfo);
 	    }
 	  
-	    render() {
+	    public render() {
 	      if (this.state.hasError) {
 	        // 你可以 render 任何客製化的 fallback UI
 	        return <h1>Something went wrong.</h1>;
@@ -42,6 +55,9 @@ version:: 16.0+
 	      return this.props.children;
 	    }
 	  }
+	  
+	  export default ErrorBoundary;
 	  ```
 - ## Reference
 	- [錯誤邊界](https://zh-hant.reactjs.org/docs/error-boundaries.html)
+	- [Error Boundaries](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/error_boundaries/)
