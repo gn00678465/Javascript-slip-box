@@ -1,6 +1,6 @@
 category:: Environment
 type:: Git
-alias:: interactive rebase
+alias:: 合併提交
 
 - ## 使用 `rebase -i` 合併提交
 - > 將瑣碎的 commit 整理合併，推送至 server 前可以執行此動作
@@ -65,3 +65,4 @@ alias:: interactive rebase
 -
 - ## Reference
 	- [【狀況題】把多個 Commit 合併成一個 Commit](https://gitbook.tw/chapters/rewrite-history/merge-multiple-commits-to-one-commit)
+	- [使用 rebase -i 合併提交](https://backlog.com/git-tutorial/tw/stepup/stepup7_5.html)
