@@ -12,3 +12,6 @@ alias:: rebase
 - > issue2 分支將重新定義 base，並將 issue1 分支設定為 base
 - ![git.drawio (3).svg](../assets/git.drawio_(3)_1682059860223_0.svg){:height 338, :width 388}
 - > rebase 後的 commit 未完全刪除，而會被 Git 的資源回收機制回收
+-
+- ## Reference
+	- [另一種合併方式（使用 rebase）](https://gitbook.tw/chapters/branch/merge-with-rebase)
