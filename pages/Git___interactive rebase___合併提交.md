@@ -5,7 +5,7 @@ alias:: 合併提交
 - ## 使用 `rebase -i` 合併提交
 - > 將瑣碎的 commit 整理合併，推送至 server 前可以執行此動作
 - ```bash
-  git rebase -i [hash]
+  git rebase -i [SHA-1]
   ```
 	- `hash`: 特定的 commit，也可以使用相對引用
 - ### example
