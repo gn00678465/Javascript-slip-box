@@ -27,7 +27,7 @@ alias:: window.open
 		  | `location` | 是否顯示網址列，預設是顯示，如果不要顯示，寫法是`location=no` 。 |
 		  | `menubar` | 是否顯示目錄欄位，預設是會顯示，如果不要顯示，寫法是 `menubar=no`。 |
 		  | `status` | 是否顯示狀態列，預設是顯示，如果不要顯示，寫法是 `status=no`。 |
-- **Return Value**
+- **Return**
 	- 回傳開啟視窗的 [`WindowProxy`](https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy) object
 - ## Reference
 	- [MDN Window: open() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
