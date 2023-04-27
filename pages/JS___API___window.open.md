@@ -16,7 +16,7 @@ alias:: window.open
 		  |`height` or `innerHeight`| 設定新視窗的高度，單位是 pixels，最小數值需要 100|
 		  | `left` or `screenX` | 距離左邊的距離，單位是 pixels。 |
 		  | `top` or `screenY` | 距離上面的距離，單位是 pixels。 |
-		  | `popup`| 以彈出式視窗開啟 |
+		  | `popup`| 以彈出式視窗開啟，寫法為 `popup`, `popup=yes`, `popup=1`；不以彈出式視窗開啟，寫法為 `popup=no` |
 		- **Toolbar and chrome features**
 		- > All features can be set to yes, 1 or just be present to be "on", set to *no* or *0* or in most cases just not present to be "off".
 		  下列 features 在 chrome 皆不支援。
