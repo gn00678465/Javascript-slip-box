@@ -3,5 +3,5 @@
 		- [[useState]]
 		- [[useReducer]]
 	- ### Context
-		- [[useContext]]
+		- [[React Context]]
 	- ### Third Party
