@@ -6,6 +6,7 @@ alias:: window.open
   window.open([url[, target[, windowFeatures]]]);
   ```
 - **Parameters**
+  collapsed:: true
 	- `url?:string`: **optional** 新視窗要引用的網址。
 	- `target?:string`: **optional** 新視窗的名稱，也可以帶入 `_self`, `_blank`, `_parent`, and `_top`。
 	- `windowFeatures?:string`: **optional**
@@ -28,7 +29,24 @@ alias:: window.open
 		  | `menubar` | 是否顯示目錄欄位，預設是會顯示，如果不要顯示，寫法是 `menubar=no`。 |
 		  | `status` | 是否顯示狀態列，預設是顯示，如果不要顯示，寫法是 `status=no`。 |
 - **Return**
+  collapsed:: true
 	- 回傳開啟視窗的 [`WindowProxy`](https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy) object
+- ## Event
+	- ### onunload
+	- > 當 window, body, frameset 物件「被卸載之後」才會觸發這個事件
+	- ```javascript
+	  window.addEventListener("unload", (event) => {
+	    console.log(event)
+	  });
+	  ```
+	- ### onbeforeunload
+	- > 當 window, body, frameset 物件「被卸載之前」會觸發這個事件，早於 `onunload`
+	- ```javascript
+	  window.addEventListener("beforeunload", (event) => {
+	    console.log(event)
+	  });
+	  ```
 - ## Reference
 	- [MDN Window: open() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
 	- [iframe 與 window.open 黑魔法](https://blog.huli.tw/2022/04/07/iframe-and-window-open/#windowopen)
+	- [如何避免使用者在特定網頁表單在未經送出時意外離開](https://blog.miniasp.com/post/2009/08/12/How-to-avoid-page-reload-or-redirect-by-incident)
