@@ -5,6 +5,7 @@ alias:: React 學習筆記
 version:: 18.x+
 
 - ## Intro basic
+  collapsed:: true
 	- ### JSX 與 HTML 的標籤屬性
 		- `class` 須改為 `className`
 		- `inline style` 須使用 `object` 寫法
@@ -20,6 +21,7 @@ version:: 18.x+
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
 - ## Component
+  collapsed:: true
 	- component 必須以**大寫**開頭
 	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
 		- `[property]="value"` 傳入以 string 為主
@@ -38,6 +40,7 @@ version:: 18.x+
 		  <Child>pass data</Child>
 		  ```
 - ## React Hooks
+  collapsed:: true
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[React/Hooks/useState]]
 	- [[React/Hooks/useEffect]]
@@ -46,12 +49,17 @@ version:: 18.x+
 	- [[React/Hooks/useContext]]
 	- [[React/Hooks/useReducer]]
 - ## React API
+  collapsed:: true
 	- [[React/API/React.createElement]]
 	- [[React/API/React.memo]]
 	- [[React/API/React.createContext]]
 	- [[Lazy & Suspense]]
+- ## React Context
+- {{embed [[React/React Context]]}}
 - ## React Router
+  collapsed:: true
 	- {{embed [[React Router]]}}
 - ## Third Party 狀態管理
+  collapsed:: true
 	- Redux
 	- Zustand
