@@ -10,7 +10,6 @@ alias:: window.open
 	- `target?:string`: **optional** 新視窗的名稱，也可以帶入 `_self`, `_blank`, `_parent`, and `_top`。
 	- `windowFeatures?:string`: **optional**
 		- 新視窗的相關設定，不能包含空白符號，須以 `,` 相隔。
-		- All features can be set to yes, 1 or just be present to be "on", set to *no* or *0* or in most cases just not present to be "off"
 		- **位置與尺寸**
 		- | **參數** | **參數值與說明** |
 		  |`width` or `innerWidth`| 設定新視窗的寬度，最小數值需要 100|
@@ -18,6 +17,7 @@ alias:: window.open
 		  | `left` or `screenX` | 距離左邊的距離，單位是 pixels。 |
 		  | `top` or `screenY` | 距離上面的距離，單位是 pixels。 |
 		- **Toolbar and chrome features**
+		- > All features can be set to yes, 1 or just be present to be "on", set to *no* or *0* or in most cases just not present to be "off"
 		- | **參數** | **參數值與說明** |
 		  | `toolbar` | 指定工具列是否顯示，預設是顯示，如果要設為不顯示，寫法是 `toolbar=no`。 |
 		  | `scrollbars` | 指定 scroll bars 是否顯示，要顯示寫法是 `scrollbars=yes`，不顯示寫法是 `scrollbars=no`。 |
