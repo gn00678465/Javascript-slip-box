@@ -1,6 +1,6 @@
 category:: Programing
 type:: Javascript, API
-alias:: Window.getComputedStyle
+alias:: window.getComputedStyle
 
 - > 取得給定元素的所有 CSS 屬性值
 - ```javascript
