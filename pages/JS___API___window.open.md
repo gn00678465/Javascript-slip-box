@@ -1,5 +1,5 @@
 category:: Programing
-type:: Javascript, API
+type:: Javascript, API, Window
 alias:: window.open
 
 - ```javascript

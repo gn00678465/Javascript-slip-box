@@ -5,10 +5,8 @@ alias:: Intl.DateTimeFormat
 - > 可以根據不同的語言和地區來格式化日期和時間。
   > 使用 `new` 或不使用，皆可以建立實體
 - ## Syntax
-	- ```javascript
-	  Intl.DateTimeFormat(locales, options);
+	- Intl.DateTimeFormat(locales, options);
 	  new Intl.DateTimeFormat(locales, options);
-	  ```
 	- **Parameters**
 		- `locales?: string | string[]`: **BCP 47 Language Tags**
 		- `options?: Object`
