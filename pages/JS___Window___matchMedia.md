@@ -23,4 +23,4 @@ alias:: window.matchMedia
 	  ```
 - ## Reference
 	- [MDN Window: matchMedia() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
-	- [CSS Media Queries 詳細介紹]()
+	- [CSS Media Queries 詳細介紹](https://www.oxxostudio.tw/articles/201810/css-media-queries.html)
