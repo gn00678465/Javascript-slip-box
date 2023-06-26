@@ -3,7 +3,6 @@ type:: Javascript, Window
 alias:: window.open
 
 - ## Syntax
-  collapsed:: true
 	- ```javascript
 	  window.open([url[, target[, windowFeatures]]]);
 	  ```
@@ -31,7 +30,6 @@ alias:: window.open
 			  | `menubar` | 是否顯示目錄欄位，預設是會顯示，如果不要顯示，寫法是 `menubar=no`。 |
 			  | `status` | 是否顯示狀態列，預設是顯示，如果不要顯示，寫法是 `status=no`。 |
 	- **Return**
-	  collapsed:: true
 		- 回傳開啟視窗的 [`WindowProxy`](https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy) object
 - ## Event
 	- ### onbeforeunload
