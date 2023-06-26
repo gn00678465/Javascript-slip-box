@@ -3,6 +3,7 @@ type:: Javascript, Window
 alias:: window.open
 
 - ## Syntax
+  collapsed:: true
 	- ```javascript
 	  window.open([url[, target[, windowFeatures]]]);
 	  ```
@@ -33,22 +34,59 @@ alias:: window.open
 	  collapsed:: true
 		- 回傳開啟視窗的 [`WindowProxy`](https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy) object
 - ## Event
-	- ### onunload
-		- > 當 window, body, frameset 物件「被卸載之後」才會觸發這個事件
-		- ```javascript
-		  window.addEventListener("unload", (event) => {
-		    console.log(event)
-		  });
-		  ```
 	- ### onbeforeunload
-		- > 當 window, body, frameset 物件「被卸載之前」會觸發這個事件，早於 `onunload`
+		- > 當 window, body, frameset 物件「被卸載之前」會觸發這個事件
+		  > 關閉瀏覽器或者是頁面時觸發
+		  > 觸發時間早於 `onunload`
 		- ```javascript
 		  window.addEventListener("beforeunload", (event) => {
 		    console.log(event)
 		  });
+		  
+		  window.onbeforeunload = (event) => {
+		     console.log(event)
+		  };
+		  ```
+	- ### onunload
+		- > 當 window, body, frameset 物件「被卸載之後」才會觸發這個事件
+		  > 關閉瀏覽器或者是頁面時觸發
+		- ```javascript
+		  window.addEventListener("unload", (event) => {
+		    console.log(event)
+		  });
+		  
+		  window.onunload = (event) => {
+		    console.log(event)
+		  }
+		  ```
+	- ### onload
+		- > 當正常進入頁面時觸發
+		  > **不包含**上一頁與下一頁按鈕的操作 ([[BFCache]])
+		  > 觸發時間早於 `pageShow`
+		- ```js
+		  window.addEventListener("load", (event) => {
+		    console.log(event)
+		  });
+		  
+		  window.load = (event) => {
+		    console.log(event)
+		  }
+		  ```
+	- ### pageshow
+		- > 當進入頁面時皆會觸發
+		  > **包含**上一頁與下一頁按鈕的操作 ([[BFCache]])
+		- ```js
+		  window.addEventListener('pageshow', function(event) {
+		      console.log('after , pageshow :',event);
+		  });
+		  
+		  window.onpageshow = (event) => {
+		    console.log('after , pageshow :',event);
+		  };
 		  ```
 	- ### pagehide
-		- > 取代 `onunload` 事件
+		- > 重新整理頁面或 `target="_self"` 會觸發
+		  > 可取代 `onunload` 事件
 		- ```javascript
 		  window.addEventListener("pagehide", (event) => {
 		    console.log(event)
