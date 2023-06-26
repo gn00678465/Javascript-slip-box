@@ -25,7 +25,7 @@ alias:: FileSystemDirectoryHandle
 		- **Parameters**:
 			- `name`: 指定檔案或目錄名稱
 			- `options`:
-				- `recursive`: 預設為 `false`, 設定為 `true` 會遞迴去移除符合的檔案或目錄
+				- `recursive`: 預設為 `false`, 設定為 `true` 會移除特定資料夾內的所有內容
 		- **Return**: 回傳一個 **Promise** `undefined` 的物件
 	- `resolve`: [resolve](https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/resolve)
 - ## Reference
