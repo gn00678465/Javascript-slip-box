@@ -1,5 +1,5 @@
 category:: Programing
-type:: Javascript, Window
+type:: Javascript, File System Access API
 alias:: showDirectoryPicker
 
 - > 呼叫此方法會開啟一個目錄選擇器, 允許使用者選擇一個目錄
@@ -20,7 +20,7 @@ alias:: showDirectoryPicker
 		  }
 		  ```
 	- **Return**
-		- 一個 Promise 物件,  內包含 [[FileSystemDirectoryHandle]] 的物件
+		- 回傳一個 **Promise** 物件,  內包含 [[FileSystemDirectoryHandle]] 的物件
 		- ```typescript
 		  Promise<FilesSystemDirectoryHandle>
 		  ```

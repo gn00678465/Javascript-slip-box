@@ -1,5 +1,5 @@
 category:: Programing
-type:: Javascript, Window
+type:: Javascript, File System Access API
 alias:: showOpenFilePicker
 
 - > 呼叫此方法會開啟一個檔案選擇器, 允許使用者選擇一個或多個檔案，並返回這些檔案的 `FileSystemFileHandle` 物件
@@ -29,7 +29,7 @@ alias:: showOpenFilePicker
 		  }
 		  ```
 	- **Return**
-		- 一個 Promise 物件,  陣列內包含 [[FileSystemFileHandle]] 的物件
+		- 回傳一個 **Promise** 物件,  陣列內包含 [[FileSystemFileHandle]] 的物件
 		- ```typescript
 		  Promise<Array<FileSystemFileHandle>>
 		  ```
