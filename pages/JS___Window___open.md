@@ -34,19 +34,26 @@ alias:: window.open
 		- 回傳開啟視窗的 [`WindowProxy`](https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy) object
 - ## Event
 	- ### onunload
-	- > 當 window, body, frameset 物件「被卸載之後」才會觸發這個事件
-	- ```javascript
-	  window.addEventListener("unload", (event) => {
-	    console.log(event)
-	  });
-	  ```
+		- > 當 window, body, frameset 物件「被卸載之後」才會觸發這個事件
+		- ```javascript
+		  window.addEventListener("unload", (event) => {
+		    console.log(event)
+		  });
+		  ```
 	- ### onbeforeunload
-	- > 當 window, body, frameset 物件「被卸載之前」會觸發這個事件，早於 `onunload`
-	- ```javascript
-	  window.addEventListener("beforeunload", (event) => {
-	    console.log(event)
-	  });
-	  ```
+		- > 當 window, body, frameset 物件「被卸載之前」會觸發這個事件，早於 `onunload`
+		- ```javascript
+		  window.addEventListener("beforeunload", (event) => {
+		    console.log(event)
+		  });
+		  ```
+	- ### pagehide
+		- > 取代 `onunload` 事件
+		- ```javascript
+		  window.addEventListener("pagehide", (event) => {
+		    console.log(event)
+		  });
+		  ```
 - ## Reference
 	- [MDN Window: open() method](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
 	- [iframe 與 window.open 黑魔法](https://blog.huli.tw/2022/04/07/iframe-and-window-open/#windowopen)
