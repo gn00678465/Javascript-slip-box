@@ -5,7 +5,9 @@ alias:: useRef
 - > 應用 call by reference (傳參考特性)
 - ## Syntax
 	- ```ts
-	  const ref  = useRef<Type>(initialValue);
+	  // Generic
+	  const ref  = useRef<T>(initialValue);
+	  const ref: RefObject<T> = useRef(initialValue);
 	  ```
 		- **Parameters**:
 			- `initialValue`: 初始值
@@ -15,7 +17,7 @@ alias:: useRef
 			    readonly current: T | null;
 			  }
 			  
-			  // { current: initialValue }
+			  const ref = { current: }
 			  ```
 - `useRef` 回傳一個 mutable 的 ref object，`.current` 屬性被初始為傳入的參數（`initialValue`）
 	- **更新 current 值並不會觸發 re-render**
