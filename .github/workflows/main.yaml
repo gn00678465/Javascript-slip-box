@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    step:
-      - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v3
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
       - name: add a nojekyll file
