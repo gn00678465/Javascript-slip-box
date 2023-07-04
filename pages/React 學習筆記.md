@@ -5,8 +5,8 @@ alias:: React 學習筆記
 version:: 18.x+
 
 - ## Intro basic
-  collapsed:: true
 	- ### JSX 與 HTML 的標籤屬性
+	  collapsed:: true
 		- `class` 須改為 `className`
 		- `inline style` 須使用 `object` 寫法
 		- `Input` 標籤中
@@ -20,27 +20,26 @@ version:: 18.x+
 			- ```jsx
 			  <div dangerouslySetInnerHTML={{__html: 'First &middot; Second'}}></div>
 			  ```
-- ## Component
-  collapsed:: true
-	- component 必須以**大寫**開頭
-	- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
-		- `[property]="value"` 傳入以 string 為主
-		- `[property]={value}` 傳入 string 以外的型別、變數或 function
-	- 以 loop 方式 render component，每一個 component 必須帶入 key，且 key 必須為**唯一值**
-	- **children 也是 props**，可直接將內容(並非 property )傳入 component 內
-		- ```tsx
-		  interface Props {
-		    children: React.ReactNode;
-		  }
-		  
-		  const Child = ({ children }: Props) => {
-		    return <p>{ children }</p>
-		  }
-		  
-		  <Child>pass data</Child>
-		  ```
+	- ### Component
+	  collapsed:: true
+		- component 必須以**大寫**開頭
+		- 傳入 component 內的資料以 `[property]="value"` 或者 `[property]={value}` 方式傳入，component 內以 `props` 接收傳入的所有資料
+			- `[property]="value"` 傳入以 string 為主
+			- `[property]={value}` 傳入 string 以外的型別、變數或 function
+		- 以 loop 方式 render component，每一個 component 必須帶入 key，且 key 必須為**唯一值**
+		- **children 也是 props**，可直接將內容(並非 property )傳入 component 內
+			- ```tsx
+			  interface Props {
+			    children: React.ReactNode;
+			  }
+			  
+			  const Child = ({ children }: Props) => {
+			    return <p>{ children }</p>
+			  }
+			  
+			  <Child>pass data</Child>
+			  ```
 - ## React Hooks
-  collapsed:: true
 	- > 所有 react hooks 的方法只能定義在 Component 的作用域內
 	- [[React/Hooks/useState]]
 	- [[React/Hooks/useEffect]]
@@ -50,9 +49,9 @@ version:: 18.x+
 	- [[React/Hooks/useReducer]]
 - ## React API
   collapsed:: true
-	- [[React/API/React.createElement]]
-	- [[React/API/React.memo]]
-	- [[React/API/React.createContext]]
+	- [[React/APIs/React.createElement]]
+	- [[React/APIs/React.memo]]
+	- [[React/APIs/React.createContext]]
 	- [[Lazy & Suspense]]
 - ## React Context
 - {{embed [[React/React Context]]}}

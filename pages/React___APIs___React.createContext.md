@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, API
+type:: React, APIs
 alias:: React.createContext
 
 - ## Syntax
