@@ -2,11 +2,23 @@ category:: Programing
 type:: React, Hooks
 alias:: useRef
 
-- ```typescript
-  const refContainer = useRef(initialValue);
-  // { current: initialValue }
-  ```
 - > 應用 call by reference (傳參考特性)
+- ## Syntax
+	- ```ts
+	  // Generic
+	  const ref  = useRef<T>(initialValue);
+	  const ref: RefObject<T> = useRef(initialValue);
+	  ```
+		- **Parameters**:
+			- `initialValue`: 初始值
+		- **Return**:
+			- ```ts
+			  interface RefObject<T> {
+			    readonly current: T | null;
+			  }
+			  
+			  const ref = { current: }
+			  ```
 - `useRef` 回傳一個 mutable 的 ref object，`.current` 屬性被初始為傳入的參數（`initialValue`）
 	- **更新 current 值並不會觸發 re-render**
 	- 可以取得 Previous 的值

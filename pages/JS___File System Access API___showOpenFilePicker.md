@@ -8,6 +8,7 @@ alias:: showOpenFilePicker
 	  showOpenFilePicker(options)
 	  ```
 	- **Parameters**
+	  collapsed:: true
 		- `options`: [optional]
 			- `multiple`: 是否允許選擇多個檔案, 預設為 `false`
 			- `excludeAcceptAllOption`: 是否排除 types 所設定的檔案類型, 預設為 `false`
