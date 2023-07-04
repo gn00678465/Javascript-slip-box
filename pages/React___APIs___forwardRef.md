@@ -7,7 +7,7 @@ id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
   > 讓父元件可以存取子元件的 **DOM**
 - ## Syntax
 	- ```ts
-	  const render = (props: unknown, ref: unknown) => {
+	  const render: ForwardRefRenderFunction<RefType, PropsType> = (props, ref) => {
 	    return /* component */
 	  }
 	  
@@ -26,7 +26,8 @@ id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
 	  // children
 	  const ForwardRefInput = forwardRef<HTMLInputElement, {}>((props, ref) => {
 	    return <input ref={ref} type="search" />;
-	  })
+	  });
+	  ForwardRefInput.displayName = ForwardRefInput;
 	  
 	  // parent
 	  function App() {
