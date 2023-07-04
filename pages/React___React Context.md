@@ -9,7 +9,7 @@ alias:: React Context
 	- 濫用 context 則可能造成 component 重用性降低，也可能造成追蹤程式碼不易。
 	- 當想要傳遞一些只有特定（非全域性資料）下層 component 需要的資料時，可使用 [composition](https://ithelp.ithome.com.tw/articles/10251762) 技巧來解決。
 - ## API
-	- [[React/API/React.createContext]]
+	- [[React/APIs/React.createContext]]
 		- `Context.Provider`
 		- `Context.Consumer`
 		  collapsed:: true
