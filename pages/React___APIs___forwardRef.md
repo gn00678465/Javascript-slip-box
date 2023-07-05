@@ -19,9 +19,12 @@ id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
 			- `ref`: 從父元件帶入的 `ref`
 	- **Return**
 - ## Usage
-	- 1. forwardRef包裹你的component
-	  2. component傳入props和ref
-	  3. 在父元件透過ref來存取其DOM
+	- forwardRef 包裹你的 component
+	  logseq.order-list-type:: number
+	- component 傳入 props 和 ref
+	  logseq.order-list-type:: number
+	- 在父元件透過 ref 來存取其 DOM
+	  logseq.order-list-type:: number
 	- ```ts
 	  // children
 	  const ForwardRefInput = forwardRef<HTMLInputElement, {}>((props, ref) => {
