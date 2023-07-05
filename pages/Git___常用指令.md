@@ -2,6 +2,10 @@ category:: Environment
 type:: Git
 alias:: Git 常用指令
 
+- ## 切換分支
+	- `git checkout [branch name]`
+	- `git checkout -b [branch name]`
+		- 建立新分支並切換至新建立的分支
 - ## 合併
 	- `git merge [branch name]`
 	- `git rebase`
