@@ -15,5 +15,5 @@
 	- 📓 Note
 	  collapsed:: true
 		- [[React 宣告帶有 childrend 的 props]]
-- <p style="font-size: 20px; font-weight: bold; color">Git</p>
+- <p style="font-size: 20px; font-weight: bold; color: #333;">Git</p>
 	- 📚 [[Git 常用指令]]
