@@ -1,5 +1,5 @@
 category:: Programing
-type:: Node.js
+type:: #Node.js
 alias:: Route 模組化
 
 - > 將 Express 的 Route 依照不同的路徑模組化

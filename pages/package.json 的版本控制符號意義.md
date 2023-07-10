@@ -1,5 +1,5 @@
 category:: Environment
-type:: Node.js
+type:: #Node.js
 alias:: package.json 的版本控制符號意義
 
 ## 語意化版本號
