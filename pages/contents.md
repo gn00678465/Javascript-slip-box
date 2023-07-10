@@ -55,3 +55,8 @@
 	- {{query (property :type "#Docker")}}
 	  query-table:: true
 	  query-properties:: [:page :category :type :alias]
+- <p style="font-size: 20px; font-weight: bold; color: #000;">Pattern 設計模式</p>
+  collapsed:: true
+	- {{query (property :type "#Pattern")}}
+	  query-table:: true
+	  query-properties:: [:page :category :type :alias]

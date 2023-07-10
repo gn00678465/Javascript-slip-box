@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Context
+type:: #React
 alias:: React Context
 
 - > React Context 是一種利用向下廣播來傳遞資料的方式。
