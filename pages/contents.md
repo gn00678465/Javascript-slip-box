@@ -6,7 +6,8 @@
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
 	- **Basic**
 	  collapsed:: true
-		- query-table:: true
+		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) )}}
+		  query-table:: true
 		  query-properties:: [:page :category :type :alias :version]
 	- **Utility**
 	  query-table:: true
