@@ -4,26 +4,32 @@
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
-  collapsed:: true
-	- {{query (property :type "Typescript")}}
+	- **Basic**
+	  collapsed:: true
+		- query-table:: true
+		  query-properties:: [:page :category :type :alias :version]
+	- **Utility**
 	  query-table:: true
 	  query-properties:: [:page :category :type :alias]
 	  collapsed:: true
+		- {{query (and (property :type "#Typescript") (property :type "#Utility"))}}
+		  query-properties:: [:page :category :type :alias :version]
+		  query-table:: true
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
-	- Hooks
+	- **Hooks**
 	  collapsed:: true
 		- {{query (and (property :type "#React") (property :type "#Hooks") (not (property :type "#ReactRouter")))}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias]
-	- APIs
+	- **APIs**
 	  collapsed:: true
 		- {{query (and (property :type "#React") (property :type "#API"))}}
 		  query-sort-by:: alias
 		  query-table:: true
 		  query-sort-desc:: false
 		  query-properties:: [:page :category :type :alias]
-	- 📓 Note
+	- 📓 **Note**
 	  collapsed:: true
 		- [[React 宣告帶有 childrend 的 props]]
 		- [[React - Batch Update]]

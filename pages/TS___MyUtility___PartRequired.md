@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Utility, Custom
+type:: #Typescript, #Utility, #Custom
 alias:: PartRequired
 
 - ## `PartRequired<Type, Keys>`

@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript
+type:: #Typescript
 alias:: Type Guard
 
 - > Type Guards allow you to narrow down the type of an object within a conditional block.

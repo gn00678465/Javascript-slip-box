@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript
+type:: #Typescript
 alias:: implements
 
 - > implements (實踐)通常用在實踐抽象的 Interface (介面)的所有方法和屬性。

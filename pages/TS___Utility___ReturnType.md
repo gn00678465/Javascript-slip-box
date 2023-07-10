@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Utility, Function
+type:: #Typescript, #Utility
 alias:: ReturnType
 version:: 2.8+
 

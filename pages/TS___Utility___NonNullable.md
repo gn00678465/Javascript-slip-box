@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Utility, Union
+type:: #Typescript, #Utility
 alias:: NonNullable
 version:: 2.8+
 

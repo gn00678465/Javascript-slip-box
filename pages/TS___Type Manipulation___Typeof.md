@@ -1,3 +1,7 @@
+category:: Programing
+type:: #Typescript
+alias:: Typescript - typeof
+
 - > 將 Typescript 自動推導的 Type 建立成一個可以使用的 Type
 - ```typescript
   const person = {

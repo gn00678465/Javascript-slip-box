@@ -1,5 +1,5 @@
 category:: Programing
-type:: Vue, i18n
+type:: #Vue3, #i18n
 alias:: 設定 vue-i18n 多國語系
 version:: 3.x+
 
