@@ -4,6 +4,11 @@
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
+  collapsed:: true
+	- {{query (property :type "Typescript")}}
+	  query-table:: true
+	  query-properties:: [:page :category :type :alias]
+	  collapsed:: true
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
 	- Hooks
@@ -19,7 +24,6 @@
 		  query-sort-by:: alias
 		  query-sort-desc:: false
 	- 📓 Note
-	  collapsed:: true
 		- [[React 宣告帶有 childrend 的 props]]
 		- [[React - Batch Update]]
 - <p style="font-size: 20px; font-weight: bold; color: #42b883;">Vue.js</p>

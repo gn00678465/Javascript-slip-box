@@ -1,6 +1,5 @@
--
 category:: Programing
-type:: Javascript, Window
+type:: Javascript, File System Access API
 alias:: File System Access API
 
 - ## File System Access API
