@@ -1,5 +1,5 @@
 category:: Environment
-type:: Vite, Config
+type:: #Vite
 alias:: vite 使用 https 認證
 version:: 3.x+
 

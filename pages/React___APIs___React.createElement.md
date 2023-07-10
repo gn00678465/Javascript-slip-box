@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, APIs
+type:: #React, #API
 alias:: React.createElement
 
 - > babel 會將 JSX 編譯成 React.createElement

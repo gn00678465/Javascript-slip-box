@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router
+type:: #React, #ReactRouter
 alias:: Protected Routes
 
 - > 利用 `Outlet` and [[React Router/Hooks/useNavigate]] 的功能來達到路由的權限管理

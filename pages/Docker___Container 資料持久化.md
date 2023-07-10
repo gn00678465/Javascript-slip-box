@@ -1,5 +1,5 @@
 category:: Environment
-type:: Docker
+type:: #Docker
 alias:: Docker container 資料持久化
 
 - ## 概述

@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Hooks
+type:: #React, #Hooks
 alias:: useState
 
 - > 當 state 更新時，會觸發 re-render

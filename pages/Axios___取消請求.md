@@ -1,5 +1,5 @@
 category:: Programing
-type:: Axios
+type:: #Axios
 alias:: 取消請求
 version:: 0.22.0+
 

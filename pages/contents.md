@@ -13,17 +13,23 @@
 	- 📚 [[React 學習筆記]]
 	- Hooks
 	  collapsed:: true
-		- {{query (property :type "React, Hooks")}}
+		- {{query (and (property :type "#React") (property :type "#Hooks") (not (property :type "#ReactRouter")))}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias]
 	- APIs
 	  collapsed:: true
-		- {{query (property :type "React, APIs")}}
-		  query-table:: true
-		  query-properties:: [:page :category :type :alias :version]
+		- {{query (and (property :type "#React") (property :type "#API"))}}
 		  query-sort-by:: alias
+		  query-table:: true
 		  query-sort-desc:: false
+		  query-properties:: [:page :category :type :alias]
 	- 📓 Note
+	  collapsed:: true
 		- [[React 宣告帶有 childrend 的 props]]
 		- [[React - Batch Update]]
 - <p style="font-size: 20px; font-weight: bold; color: #42b883;">Vue.js</p>
+- <p style="font-size: 20px; font-weight: bold; color: #0db7ed;">Docker</p>
+  collapsed:: true
+	- {{query (property :type "#Docker")}}
+	  query-table:: true
+	  query-properties:: [:page :category :type :alias]

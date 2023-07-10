@@ -1,5 +1,5 @@
 category:: Environment
-type:: Docker
+type:: #Docker
 alias:: multi-stage builds (多階段構建)
 
 - > 製作容器映像檔時有個常見的原則: 映像檔越小越好

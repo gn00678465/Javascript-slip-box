@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: Upstream
 
 - ## 追蹤遠端的分支

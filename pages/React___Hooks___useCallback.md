@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Hooks
+type:: #React, #Hooks
 alias:: useCallback
 
 - > 透過它對一個 function 重新執行的時機做出控制。

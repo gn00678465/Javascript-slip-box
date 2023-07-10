@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: 修改歷史訊息
 
 - ## 使用 `rebase -i` 修改歷史訊息

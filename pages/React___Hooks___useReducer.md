@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Hooks
+type:: #React, #Hooks
 alias:: useReducer
 
 - > 適合處理較複雜的 state，可以將狀態的改變統一放在 reducer 去做管理
@@ -7,7 +7,6 @@ alias:: useReducer
   const [state, dispatch] = useReducer(reducer, initialState[, initStateFn]);
   ```
 - **Types**
-  collapsed:: true
 	- ```typescript
 	  export interface InitialState {
 	    // types

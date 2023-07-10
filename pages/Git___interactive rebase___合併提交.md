@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: 合併提交
 
 - ## 使用 `rebase -i` 合併提交

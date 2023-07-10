@@ -1,5 +1,5 @@
 category:: Programing
-type:: Pattern
+type:: #Pattern
 alias:: 策略模式 Strategy
 
 - 定義：定義一系列演算法，將它們封裝起來，並使它們可以互相替換。

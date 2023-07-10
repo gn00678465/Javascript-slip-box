@@ -1,6 +1,6 @@
 id:: 63c0a348-2799-4311-ab7a-f821a61943d2
 category:: Programing
-type:: React, Router
+type:: #React, #ReactRouter
 alias:: React Router
 version:: 6.x+
 

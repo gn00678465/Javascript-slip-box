@@ -1,7 +1,7 @@
 category:: Programing
 
 - ## Vue 2
-- type:: Vue
+- type:: #Vue2
   version:: 2.6+
 	- > Vue2 版本中分為 slots 與 scopedSlots
 	- ```vue
@@ -17,7 +17,7 @@ category:: Programing
 	  </template>
 	  ```
 - ## Vue 3
-- type:: Vue
+- type:: #Vue3
   version:: 3.x+
 	- ```vue
 	  <template v-for="(_, slot) in $slots" v-slot:[slot]="scope">

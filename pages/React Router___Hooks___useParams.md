@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router, Hooks
+type:: #React, #ReactRouter, #Hooks
 alias:: useParams
 
 - ```tsx

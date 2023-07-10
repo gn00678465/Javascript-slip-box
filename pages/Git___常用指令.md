@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: Git 常用指令
 
 - ## 切換分支
