@@ -17,7 +17,8 @@ category:: Programing
 	  </template>
 	  ```
 - ## Vue 3
-- type:: #Vue3
+- category:: Note
+  type:: #Vue3
   version:: 3.x+
 	- ```vue
 	  <template v-for="(_, slot) in $slots" v-slot:[slot]="scope">

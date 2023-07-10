@@ -35,6 +35,16 @@
 		- [[React 宣告帶有 childrend 的 props]]
 		- [[React - Batch Update]]
 - <p style="font-size: 20px; font-weight: bold; color: #42b883;">Vue.js</p>
+	- **Vue2**
+	  collapsed:: true
+		- {{query (property :type "#Vue2")}}
+		  query-table:: true
+		  query-properties:: [:page :type :version]
+	- **Vue3**
+	  collapsed:: true
+		- {{query (property :type "#Vue3")}}
+		  query-table:: true
+		  query-properties:: [:page :category :type :alias :version]
 - <p style="font-size: 20px; font-weight: bold; color: #215732;">Node.js</p>
   collapsed:: true
 	- {{query (property :type "#Node.js")}}
