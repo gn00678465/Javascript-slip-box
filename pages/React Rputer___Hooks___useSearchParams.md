@@ -1,5 +1,5 @@
 category:: Programing
-type:: #React, #ReactRouter, #Hooks
+type:: #ReactRouter, #Hooks
 alias:: useSearchParams
 
 - > 操作 URL 的搜尋參數 (`?query=something`)

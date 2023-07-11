@@ -1,5 +1,5 @@
 category:: Programing
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: Promise
 version:: ES6
 
@@ -9,7 +9,7 @@ version:: ES6
 	- `Promise` 的構造函式接收一個函式作為參數。
 	- 而該函式接受兩個額外的函式，`resolve` 和 `reject` ，這兩個函式分別代表將當前 `Promise` 置為 **fulfilled(解決)** 和 **rejected(拒絕)**兩個狀態。
 	- `Promise` 正是通過這兩個狀態來控制非同步的結果。
-	- ```javascript
+	- ```ts
 	  const p = new Promise((resolve, reject) => {
 	  	setTimeout(() => {
 	  		const random = Math.random();
@@ -36,7 +36,7 @@ version:: ES6
 - ## Nested Promise
 	- > **`Promise` 物件是可以被串接的**
 	- 皆使用 `then` 然後 `catch`
-	- ```JAVASCRIPT
+	- ```ts
 	  new Promise(/* ... */)
 	  	.then(function() {
 	    		return new Promise(/* ... */)
@@ -48,7 +48,7 @@ version:: ES6
 	  	.catch(/* ... */)
 	  ```
 	- 在 `then` 的第二個參數位置進行 `catch`
-	- ```javascript
+	- ```ts
 	  new Promise(/* ... */)
 	    .then(function() {
 	      return new Promise(/* ... */)

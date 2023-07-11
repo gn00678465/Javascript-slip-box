@@ -1,5 +1,5 @@
 category:: Note
-type:: Javascript
+type:: #Javascript, #Note
 alias:: Declarative & Imperative
 
 - ## Declarative

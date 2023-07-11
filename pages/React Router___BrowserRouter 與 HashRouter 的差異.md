@@ -1,5 +1,5 @@
 category:: Programing
-type:: #React, #ReactRouter
+type:: #ReactRouter
 alias:: BrowserRouter 與 HashRouter 的差異
 title:: React Router/BrowserRouter 與 HashRouter 的差異
 

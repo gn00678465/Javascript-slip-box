@@ -4,6 +4,7 @@
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
+  collapsed:: true
 	- **Basic**
 	  collapsed:: true
 		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) )}}
@@ -20,7 +21,7 @@
 	- 📚 [[React 學習筆記]]
 	- **Hooks**
 	  collapsed:: true
-		- {{query (and (property :type "#React") (property :type "#Hooks") (not (property :type "#ReactRouter")))}}
+		- {{query (and (property :type "#React") (property :type "#Hooks"))}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias]
 	- **APIs**
