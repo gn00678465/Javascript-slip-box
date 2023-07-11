@@ -1,5 +1,5 @@
 category:: Environment
-type:: Vite
+type:: #Vite
 alias:: Glob Import
 version:: 3.x+
 

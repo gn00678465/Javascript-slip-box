@@ -1,6 +1,6 @@
 category:: Programing
-type:: Node.js
-alias:: Express.js 取得 URL 路徑參數
+type:: #Node.js
+alias:: Express.js - 取得 URL 路徑參數
 
 - ## 取得 URL 路徑參數
   id:: 63d12244-be41-41d1-b97e-bed4a29b2a66

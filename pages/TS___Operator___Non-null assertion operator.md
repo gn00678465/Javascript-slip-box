@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Operator
+type:: #Typescript
 alias:: Non-null assertion operator
 version:: 2.0+
 

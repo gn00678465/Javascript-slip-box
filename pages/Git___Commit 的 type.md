@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: Git commit 的 type
 
 - **feat**: (Feature) 新增/修改功能

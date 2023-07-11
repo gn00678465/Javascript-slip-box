@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router
+type:: #React, #ReactRouter
 alias:: Routes
 version:: 6.x+
 

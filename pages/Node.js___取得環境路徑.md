@@ -1,5 +1,5 @@
 category:: Programing
-type:: Node.js
+type:: #Node.js
 alias:: 取得環境路徑
 
 - Node.js 中取得環境路徑的方式

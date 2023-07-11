@@ -1,5 +1,5 @@
 category:: Programing
-type:: Pattern
+type:: #Pattern
 alias:: 觀察者模式 Observer
 
 - > 定義了一種一對多的依賴關係，讓多個 Observer (觀察者)物件同時監聽某一個 Observable (可觀察)物件，當此 Observable 狀態發生變化，會通知所有 Observer 。

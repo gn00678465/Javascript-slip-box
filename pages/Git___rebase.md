@@ -1,5 +1,5 @@
 category:: Environment
-type:: Git
+type:: #Git
 alias:: rebase
 
 - > 除了 `git merge` 外，另一種合併分支的方式。

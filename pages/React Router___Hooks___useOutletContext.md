@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router, Hooks
+type:: #React, #ReactRouter, #Hooks
 alias:: useOutletContext
 
 - > 從父層 component `Outlet` 傳遞數值到子層的 component 內

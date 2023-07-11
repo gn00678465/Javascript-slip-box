@@ -1,5 +1,5 @@
 category:: Note
-type:: YAML
+type:: #YAML, #Note
 alias:: YAML 語法
 
 - ## 特性

@@ -1,5 +1,5 @@
 category:: Environment
-type:: CD/CD
+type:: #CD/CD
 alias:: GitHub Actions
 
 - > GitHub Actions 設定檔為 `.yml`, 且必須放置於 `.github/workflows` 資料夾下

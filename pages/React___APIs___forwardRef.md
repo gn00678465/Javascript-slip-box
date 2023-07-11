@@ -1,7 +1,7 @@
-category:: Programing
-type:: React, APIs
-alias:: forwardRef
 id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
+category:: Programing
+type:: #React, #API
+alias:: forwardRef
 
 - > lets your component expose a DOM node to parent component with a [ref.](https://react.dev/learn/manipulating-the-dom-with-refs)
   > 讓父元件可以存取子元件的 **DOM**

@@ -1,5 +1,5 @@
 category:: Note
-type:: Logseq
+type:: #Logseq, #Note
 alias:: 字體|字體大小|字體顏色|間距修改
 
 - > 使用 CSS 語法, CSS 語法不能與 Markdown 同時使用

@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Utility, Function
+type:: #Typescript, #Utility
 alias:: Parameters
 version:: 3.1+
 

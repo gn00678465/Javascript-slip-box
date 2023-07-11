@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router, Hooks
+type:: #React, #ReactRouter, #Hooks
 alias:: useRoutes
 
 - > 以 function 的方式建立 Routes 的結構

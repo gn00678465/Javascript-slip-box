@@ -1,4 +1,4 @@
-category:: Programing
+category:: Note
 type:: Javascript
 alias:: Declarative & Imperative
 

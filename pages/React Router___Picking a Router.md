@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Router
+type:: #React, #ReactRouter
 alias:: Picking a Router
 version:: 6.4.x+
 

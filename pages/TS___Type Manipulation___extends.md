@@ -1,5 +1,5 @@
 category:: Programing
-type:: Typescript, Conditional Type
+type:: #Typescript
 alias:: extends
 
 - ## Narrow 收窄

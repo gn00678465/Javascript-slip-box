@@ -1,5 +1,5 @@
 category:: Programing
-type:: Node.js
+type:: #Node.js
 alias:: Cookie、Session
 
 - ## Cookie

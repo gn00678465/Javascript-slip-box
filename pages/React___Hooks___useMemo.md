@@ -1,5 +1,5 @@
 category:: Programing
-type:: React, Hooks
+type:: #React, #Hooks
 alias:: useMemo
 
 - > 當元件重新渲染時，避免函式又進行不必要的執行，可透過 `useMemo` 將函式運算完的值存起來。

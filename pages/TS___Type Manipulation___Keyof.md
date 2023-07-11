@@ -1,6 +1,6 @@
 category:: Programing
-type:: Typescript
-alias:: Keyof operator
+type:: #Typescript
+alias:: Typescript - keyof
 
 - > 取出 **Object Types** 的 **key** 並組成一個新的 Type
   > 只可以使用於 Typescript 的 **Object Types**
