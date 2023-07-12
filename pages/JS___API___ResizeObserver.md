@@ -1,18 +1,21 @@
 category:: Programing
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: ResizeObserver
 
 - > 本身為建構式，需使用 `new` 建立實體
-- ```javascript
-  const observer = new ResizeObserver(callback);
-  ```
-- **Parameters**
-	- `callback: (entries, owner) => viod`
-		- `entries:  ResizeObserverEntry[]`: 觀察的 Dom 元素尺寸變化的相關資訊，[ResizeObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry)
-- **Methods**
-	- `observe(target, [options])`: 觀察指定的 Dom 元素
+- ## Syntax
+	- ```javascript
+	  const observer = new ResizeObserver(callback);
+	  ```
+	- **Parameters**
+		- `callback: (entries, observer) => viod`
+			- `entries:  ReadonlyArray<ResizeObserverEntry>`: 觀察的 Dom 元素尺寸變化的相關資訊
+				- [ResizeObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserverEntry)
+			- `observer: ResizeObserver`: 呼叫 callback 的 ResizeObserver 實體
+- ### Methods
+	- `observe(target, options)`: 觀察指定的 Dom 元素
 		- `target: HTMLElement`: Dom 元素
-		- `options`: 初始化觀測的設定選項
+		- `options?: ResizeObserverBoxOptions`: 初始化觀測的設定選項
 			- ```typescript
 			  interface Options {
 			    box?: 'content-box' | 'border-box'

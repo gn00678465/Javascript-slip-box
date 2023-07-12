@@ -1,5 +1,5 @@
 category:: Programing
-type:: #React, #ReactRouter, #Hooks
+type:: #ReactRouter, #Hooks
 alias:: useNavigate
 
 - ```ts

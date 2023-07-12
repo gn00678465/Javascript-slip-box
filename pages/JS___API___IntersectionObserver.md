@@ -1,5 +1,5 @@
 category:: Programing
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: IntersectionObserver
 
 - > 本身為建構式，需使用 `new` 建立實體
@@ -8,7 +8,8 @@ alias:: IntersectionObserver
   ```
 - **Parameters**
 	- `callback: (entries, owner) => viod`
-		- `entries:  IntersectionObserverEntry[]`: 關於觀察 Dom 與 可視範圍交互的相關資訊，[IntersectionObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
+		- `entries:  ReadonlyArray<IntersectionObserverEntry>`: 關於觀察 Dom 與 可視範圍交互的相關資訊
+			- [IntersectionObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 		- `owner: IntersectionObserver`: 呼叫 callback 的 IntersectionObserver 實體
 	- options:
 		- `root: HTMLElement | null`:

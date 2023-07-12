@@ -1,16 +1,20 @@
 category:: Programing
-type:: Javascript, Window
+type:: #Javascript, #API, #Window
 alias:: window.open
 
 - ## Syntax
 	- ```javascript
-	  window.open([url[, target[, windowFeatures]]]);
+	  window.open();
+	  window.open(url);
+	  window.open(url, target);
+	  window.open(url, target, windowFeatures);
 	  ```
 	- **Parameters**
-	  collapsed:: true
-		- `url?:string`: **optional** 新視窗要引用的網址。
-		- `target?:string`: **optional** 新視窗的名稱，也可以帶入 `_self`, `_blank`, `_parent`, and `_top`。
-		- `windowFeatures?:string`: **optional**
+		- `url?:string`
+			- 新視窗要引用的網址。
+		- `target?:string`
+			- 新視窗的名稱，也可以帶入 `_self`, `_blank`, `_parent`, and `_top`。
+		- `windowFeatures?:string`
 			- 新視窗的相關設定，不能包含空白符號，須以 `,` 相隔。
 			- **位置與尺寸**
 			- | **參數** | **參數值與說明** |
