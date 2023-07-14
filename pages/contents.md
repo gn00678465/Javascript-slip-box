@@ -1,10 +1,13 @@
 - <p style="font-size: 20px; font-weight: bold; color: #333;">Git</p>
 	- 📚 [[Git 常用指令]]
+	- 📓 **Note**
+	  collapsed:: true
+		- [[Git commit 的 type]]
+		- [[約定式提交 Conventional Commits]]
 - <p style="font-size: 20px; font-weight: bold; color: #333;">GitHub</p>
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
-  collapsed:: true
 	- **Basic**
 	  collapsed:: true
 		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) )}}
