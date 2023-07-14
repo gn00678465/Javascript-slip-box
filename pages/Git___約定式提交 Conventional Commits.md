@@ -23,7 +23,7 @@ alias:: 約定式提交 Conventional Commits
 			- **docs**:文件（documentation）
 			- **feat**: 新增或修改功能（feature）
 			- **fix**: 修補 bug（bug fix）
-			- **perf**: 改善效能 (Optimization/performance improvement)
+			- **perf**: 改善效能 ( Optimization/performance improvement )
 			- **refactor**: 重構
 				- 不是新增功能，也非修補 bug 的程式碼變動
 			- **test**: Adding missing tests or correcting existing tests
