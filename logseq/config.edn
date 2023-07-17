@@ -178,7 +178,10 @@
  ;; ["md" "Markdown"]
  ;; ]
  :commands
- []
+ [
+  ["js" "Javascript"],
+  ["ts" "Typescript"]
+ ]
 
  ;; By default, a block can only be collapsed if it has some children.
  ;; `:outliner/block-title-collapse-enabled? true` enables a block with a title
@@ -251,7 +254,7 @@
 
  ;; Extra CodeMirror options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
-
+:editor/extra-codemirror-options {:lineWrapping true}
  ;; ignore #+keyword: for parsing page references in orgmode
  ;; :ignored-page-references-keywords #{"author" "startup"}
 
