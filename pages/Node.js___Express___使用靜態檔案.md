@@ -1,5 +1,5 @@
 category:: Programing
-type:: #Node.js
+type:: #Node.js, #Express
 alias:: Express.js - 使用靜態檔案
 
 - 將含有靜態資產的目錄名稱傳遞給 Middleware `express.static`

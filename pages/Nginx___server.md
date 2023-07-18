@@ -1,6 +1,6 @@
 category:: Environment
-type:: Nginx, Config
-alias:: Nginx config server
+type:: #Nginx
+alias:: Nginx config - server
 
 - > server block 定義 proxy server 的相關設定。
 	- 要監聽的 port

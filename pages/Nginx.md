@@ -1,5 +1,5 @@
 category:: Environment
-type:: Nginx, Config
+type:: #Nginx
 alias:: Nginx config
 
 - ## config 設定檔路徑

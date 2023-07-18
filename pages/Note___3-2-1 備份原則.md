@@ -1,5 +1,5 @@
 category:: Note
-type:: Backup
+type:: #Note
 alias:: 3-2-1 備份原則
 
 ## 「3-2-1 備份」- 資料備份的重要原則
