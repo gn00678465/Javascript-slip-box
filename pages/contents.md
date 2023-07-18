@@ -56,9 +56,18 @@
 	  query-table:: true
 - <p style="font-size: 20px; font-weight: bold; color: #0db7ed;">Docker</p>
   collapsed:: true
-	- {{query (property :type "#Docker")}}
-	  query-table:: true
-	  query-properties:: [:page :category :type :alias]
+	- [[multi-stage builds (多階段構建)]]
+	- [[Docker-desktop 空間不足]]
+	- [[Docker 與 Podman 的差異點]]
+	- [[Docker container 資料持久化]]
+	- [[Pass environment variables from docker to Node.js]]
+- <p style="font-size: 20px; font-weight: bold; color: #43A047;">Nginx</p>
+  collapsed:: true
+	- [[Nginx config]]
+		- [[Nginx config - https]]
+		- [[Nginx config - server]]
+		- [[Nginx config - upstream]]
+		- [[Nginx config - location]]
 - <p style="font-size: 20px; font-weight: bold; color: #000;">Pattern 設計模式</p>
   collapsed:: true
 	- {{query (property :type "#Pattern")}}
