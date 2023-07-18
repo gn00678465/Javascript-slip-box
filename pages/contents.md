@@ -61,7 +61,7 @@
 	- [[Docker 與 Podman 的差異點]]
 	- [[Docker container 資料持久化]]
 	- [[Pass environment variables from docker to Node.js]]
-	- Docker Compose
+	- **Docker Compose**
 		- [[Compose file - ports]]
 - <p style="font-size: 20px; font-weight: bold; color: #43A047;">Nginx</p>
   collapsed:: true
