@@ -1,1 +1,3 @@
-# logreq-git
+- # Madao-logseq
+-
+- 主要作為記錄筆記
