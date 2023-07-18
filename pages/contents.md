@@ -55,6 +55,7 @@
 	  query-properties:: [:page :category :type :alias]
 	  query-table:: true
 - <p style="font-size: 20px; font-weight: bold; color: #0db7ed;">Docker</p>
+  collapsed:: true
 	- [[multi-stage builds (多階段構建)]]
 	- [[Docker-desktop 空間不足]]
 	- [[Docker 與 Podman 的差異點]]
