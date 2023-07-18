@@ -70,6 +70,6 @@
 		- [[Nginx config - location]]
 - <p style="font-size: 20px; font-weight: bold; color: #000;">Pattern 設計模式</p>
   collapsed:: true
-	- {{query (property :type "#Pattern")}}
-	  query-table:: true
-	  query-properties:: [:page :category :type :alias]
+	- [[狀態模式 State]]
+	- [[策略模式 Strategy]]
+	- [[觀察者模式 Observer]]
