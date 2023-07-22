@@ -2,6 +2,7 @@ category:: Note
 type:: #YAML, #Note
 alias:: YAML 語法
 
+- > 副檔名為 `.yml` or `.yaml`
 - ## 特性
 	- 以縮排來區分層級
 	- `#` 代表註解
