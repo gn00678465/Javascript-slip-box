@@ -24,3 +24,5 @@ alias:: axios - upload progress
     })
   }
   ```
+- ## Reference
+	- [Add upload progress to axios request](https://thecodersblog.com/add-upload-progress-axios-request)
