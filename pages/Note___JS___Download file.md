@@ -3,6 +3,14 @@ type:: #Javascript
 alias:: Download file
 
 - > 使用 HTML 5 中 `a` 新增的屬性 `download` 實現下載功能
+	- 使用 `createElement` 建立 `<a>` 元素
+	  logseq.order-list-type:: number
+	- 設定 `<a>` 的 `href` 屬性
+	  logseq.order-list-type:: number
+	- 設定 `<a>` 的 `download` 屬性
+	  logseq.order-list-type:: number
+	- 觸發 `<a>` 的 `click` event
+	  logseq.order-list-type:: number
 - ```ts
   function forceDownload(fileName: string, blobUrl: string) {
     const anchor = document.createElement("a");
