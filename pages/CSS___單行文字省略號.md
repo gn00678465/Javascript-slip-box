@@ -1,4 +1,4 @@
-category:: Note
+category:: Programing
 type:: #CSS
 alias:: CSS - 單行文字省略號
 
@@ -13,3 +13,6 @@ alias:: CSS - 單行文字省略號
 	- `white-space: nowrap`: 強制讓文字不換行
 	- `overflow: hidden`: 隱藏此行文字超出容器的部分
 	- `text-overflow: ellipsis`: 為溢出的文字加上省略號即可
+-
+- ## See also
+	- [[CSS - 在 Flexbox 中顯示省略號]]

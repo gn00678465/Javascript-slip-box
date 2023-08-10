@@ -1,4 +1,4 @@
-category:: Note
+category:: Programing
 type:: #CSS
 alias:: CSS - 多行文字省略號
 

@@ -1,8 +1,8 @@
 category:: Note
 type:: #CSS
-alias:: CSS - 在 flex 中顯示省略號
+alias:: CSS - 在 Flexbox 中顯示省略號
 
-- 在 flex 中無法正常顯示省略號
+- > 在 Flexbox 中無法正常顯示省略號
 - ## 解法
 	- ```html
 	  <div class="content">
