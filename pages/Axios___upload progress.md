@@ -1,5 +1,5 @@
 category:: Programing
-type:: #Axios
+type:: #Axios, #Note 
 alias:: axios - upload progress
 
 - ```ts
