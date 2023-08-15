@@ -1,6 +1,6 @@
 category:: Note
 type:: #Javascript
-alias:: Event.target 與 Event.currentTarget 的差別
+alias:: Event.target vs. Event.currentTarget
 
 - ## Event.target
 	- > 所觸發的 Dom 元素
