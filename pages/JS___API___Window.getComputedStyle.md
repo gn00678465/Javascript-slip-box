@@ -1,16 +1,17 @@
 category:: Programing
-type:: Javascript, API
+type:: #Javascript
 alias:: window.getComputedStyle
 
 - > 取得給定元素的所有 CSS 屬性值
+- ## Syntax
 - ```javascript
   getComputedStyle(element[, pseudoElt])
   ```
 - **Parameters**
-	- `element: Element`: DOM 元素
-	- `pseudoElt: string | null`: 偽元素名稱
+	- **`element`**: `Element`: DOM 元素
+	- **`pseudoElt`**: `string | null`: 偽元素名稱
 - **Return**
-	- [`CSSStyleDeclaration`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) object, read-only
+	- **`CSSStyleDeclaration`**: read-only
 - **Methods**
 	- ```javascript
 	  getComputedStyle(element[, pseudoElt]).getPropertyValue(property)
@@ -26,3 +27,4 @@ alias:: window.getComputedStyle
 			- value: CSS  property 值
 - ## Reference
 	- [MDN Docs - getComputedStyle](https://developer.mozilla.org/zh-TW/docs/Web/API/Window/getComputedStyle)
+	- [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration)
