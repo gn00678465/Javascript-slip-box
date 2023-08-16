@@ -2,7 +2,7 @@ category:: Programing
 type:: #Javascript
 alias:: URL.createObjectURL
 
-- ## Intro
+- ## Introduction
 	- 建立一個帶有 URL 的 DOMString 以代表參數中所傳入的物件
 	  logseq.order-list-type:: number
 	- 生命週期與創造它的 `window` 中的 document 相同

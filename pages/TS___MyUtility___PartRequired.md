@@ -14,5 +14,5 @@ alias:: PartRequired
   ```
 	- 使用 [[Pick]] 取出以 [[Exclude]] 排除 `K` 以外 keys 的型別
 	- 使用 [[Required]] 包含 `K` 的 keys 的型別
-	- 將兩者聯集 `&`
-## Reference
+	- 將兩者交集 `&`
+- ## Reference
