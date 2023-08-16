@@ -14,3 +14,4 @@ alias:: URL.revokeObjectURL
 		- `undefined`
 - ## Reference
 	- [MDN - revokeObjectURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL_static)
+	- [Do I always need to call URL.revokeObjectURL() explicitly?](https://stackoverflow.com/questions/49209756/do-i-always-need-to-call-url-revokeobjecturl-explicitly)
