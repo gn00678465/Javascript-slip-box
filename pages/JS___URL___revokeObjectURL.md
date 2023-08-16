@@ -8,7 +8,8 @@ alias:: URL.revokeObjectURL
 	  URL.revokeObjectURL(objectURL)
 	  ```
 	- **Parameters**
-		- **`objectURL`**: `string`
+		- **`objectURL`**
+			- Type: `string`
 			- 由 [[URL.createObjectURL]] 所產生
 	- **Return**
 		- `undefined`
