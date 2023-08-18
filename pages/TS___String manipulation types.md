@@ -20,8 +20,8 @@ version:: 4.1+
 - ## `Capitalize<StringType>`
 	- > 轉換第一個字母至大寫字母
 	- ```ts
-	  type Greeting = "hello, world";
-	  type CapitalizeGreeting = Capitalize<Greeting>;
+	  type LowercaseGreeting = "hello, world";
+	  type CapitalizeGreeting = Capitalize<LowercaseGreeting>;
 	  	// "Hello, world"
 	  ```
 - ## `Uncapitalize<StringType>`
