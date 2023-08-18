@@ -1,5 +1,5 @@
 category:: Note
-type:: #React
+type:: #Note, #React
 alias:: React - Batch Update
 version:: 18.x+
 
