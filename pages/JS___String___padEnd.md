@@ -1,13 +1,13 @@
 category:: Programing
 type:: #Javascript
-alias:: String.prototype.padStart
+alias:: String.prototype.padEnd
 
 - > 目前仍是一個**實驗中的功能**
-  以重複的方式在字串的前綴補充字元，直到目標字串到達指定長度
+  以重複的方式在字串的後綴補充字元，直到目標字串到達指定長度
 - ## Syntax
 	- ```js
-	  str.padStart(targetLength);
-	  str.padStart(targetLength [, padString]);
+	  str.padEnd(targetLength);
+	  str.padEnd(targetLength [, padString]);
 	  ```
 	- **Parameters**
 		- **`targetLength`**
@@ -21,7 +21,7 @@ alias:: String.prototype.padStart
 		- 填充至指定長度後的新字串
 - ## Function
 	- ```ts
-	  function padStart(str: string, targetLength: number, padString?: string) {
+	  function padEnd(str: string, targetLength: number, padString?: string) {
 	    if (typeof str !== 'string') {
 	      throw TypeError(`${str} must be string type`);
 	    }
@@ -35,13 +35,13 @@ alias:: String.prototype.padStart
 	    if (targetLen > padStr.length) {
 	      padStr += padStr.repeat(targetLen / padStr.length);
 	    }
-	    return padStr.slice(0, targetLen) + String(str);
+	    return String(str) + padStr.slice(0, targetLen);
 	  }
 	  ```
 - ## Polyfill
 	- ```js
-	  String.prototype.padStart = String.prototype.padStart
-	    ? String.prototype.padStart
+	  String.prototype.padEnd = String.prototype.padEnd
+	    ? String.prototype.padEnd
 	    : function(targetLength, padString) {
 	  		targetLength = Math.floor(targetLength) || 0;
 	    		if (targetLength < this.length) return String(this);
@@ -58,8 +58,8 @@ alias:: String.prototype.padStart
 	            pad += padStr[i];
 	            i++;
 	          }
-	    		return pad + String(this).slice(0);
+	    		return String(this).slice(0) + pad;
 	  	}
 	  ```
 - ## Reference
-	- [MDN - padStart](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
+	- [MDN - padEnd](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)
