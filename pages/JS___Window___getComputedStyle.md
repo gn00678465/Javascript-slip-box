@@ -8,12 +8,15 @@ alias:: window.getComputedStyle
   getComputedStyle(element[, pseudoElt])
   ```
 - **Parameters**
-	- **`element`**: `Element`
+	- **`element`**
+		- Type: `Element`
 		- DOM 元素
-	- **`pseudoElt`**: `string | null`
+	- **`pseudoElt`** <span class="badge">optional</span>
+		- Type: `string | null | undefined`
 		- 偽元素名稱
-- **Return**
-	- **`CSSStyleDeclaration`**: <span class="badge">read-only</span>
+- **Return** <span class="badge">read-only</span>
+	- Type: `CSSStyleDeclaration`
+	- `CSSStyleDeclaration` object
 - **Methods**
 	- ```javascript
 	  getComputedStyle(element[, pseudoElt]).getPropertyValue(property)
