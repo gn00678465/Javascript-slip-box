@@ -20,21 +20,22 @@ alias:: String.prototype.padStart
 		- Type: `string`
 		- 填充至指定長度後的新字串
 - ## Function
-	- ```TS
+	- ```ts
 	  function padStart(str: string, targetLength: number, padString?: string) {
 	    if (typeof str !== 'string') {
 	      throw TypeError(`${str} must be string type`);
 	    }
-	    let targetLen = Math.floor(targetLength) || 0;
-	    let padStr = String(typeof padString !== undefined ? padString : ' ');
 	  
-	    if (str.length > targetLen) {
-	      return String(str);
-	    } else {
-	      targetLen = targetLen - str.length;
-	      padStr = padStr.repeat(targetLen / padStr.length);
+	    let targetLen = targetLength = Math.floor(targetLength) || 0;
+	    if (str.length >= targetLen) return String(str);
+	  
+	    let padStr = String(typeof padString !== 'undefined' ? padString : ' ');
+	    targetLen = targetLen - str.length;
+	  
+	    if (targetLen > padStr.length) {
+	      padStr += padStr.repeat(targetLen / padStr.length);
 	    }
-	    return padStr + String(str);
+	    return padStr + String(str).slice(0);
 	  }
 	  ```
 - ## Polyfill
