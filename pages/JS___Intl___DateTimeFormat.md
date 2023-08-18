@@ -1,5 +1,5 @@
 category:: Programing
-type:: #Javascript, #API
+type:: #Javascript
 alias:: Intl.DateTimeFormat
 
 - > 可以根據不同的語言和地區來格式化日期和時間。
@@ -10,9 +10,14 @@ alias:: Intl.DateTimeFormat
 	  new Intl.DateTimeFormat(locales, options);
 	  ```
 	- **Parameters**
-		- `locales?: string | string[]`: **BCP 47 Language Tags**
-		- `options?: Object`
-	- **Return**: `Intl.DateTimeFormat` Instance
+		- **`locales`**
+			- Type: `?string | string[]`
+			- BCP 47 Language Tags
+		- **`options`**
+			- Type: `?Object`
+	- **Return**
+		- Type: `Intl.DateTimeFormat`
+		- `Intl.DateTimeFormat` Instance
 - ### Methods 方法
 	- `resolvedOptions()`: 可以獲取目前設置下的一些訊息，例如日期格式、時間格式和時區等。
 		- `locales`: 語系
