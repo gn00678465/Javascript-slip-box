@@ -1,4 +1,4 @@
-category:: Programing
+category:: Note
 
 - ## Vue 2
 - type:: #Vue2
