@@ -1,6 +1,6 @@
 category:: Note
 type:: #Note, #Javascript
-alias:: String Capitalize
+alias:: JS - String Capitalize
 
 - > 轉換第一個字母為大寫字母
 - **Function**

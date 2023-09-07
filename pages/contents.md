@@ -20,6 +20,7 @@
 		- {{query (and (property :type "#Typescript") (property :type "#Utility"))}}
 		  query-properties:: [:page :category :type :alias :version]
 		  query-table:: true
+	- **Note**
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
 	- **Hooks**

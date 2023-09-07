@@ -1,6 +1,6 @@
 category:: Note
-type:: #HTML
-alias:: Table Scroll With HTML and CSS
+type:: #HTML, #Note
+alias:: HTML - Table Scroll With HTML and CSS
 
 - ## Table Scroll With HTML and CSS
 	- **結構**
