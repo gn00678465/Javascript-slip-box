@@ -1,6 +1,6 @@
 category:: Note
 type:: #Note, #Javascript
-alias:: String Uncapitalize
+alias:: JS - String Uncapitalize
 
 - > 轉換第一個字母為小寫字母
 - **Function**
