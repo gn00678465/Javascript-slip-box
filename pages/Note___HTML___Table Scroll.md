@@ -35,6 +35,7 @@ alias:: HTML - Table Scroll With HTML and CSS
 		  </table>
 		  ```
 	- **CSS**
+	  collapsed:: true
 		- ```css
 		  .table-data {
 		    width: 150px;
