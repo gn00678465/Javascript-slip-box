@@ -21,11 +21,11 @@ alias:: HTML - Table Scroll With HTML and CSS
 		        <div class="table-data">
 		          <table>
 		            <tr>
-		            	<td>Row 1 - Body 1</td>
+		              <td>Row 1 - Body 1</td>
 		              <td>Row 1 - Body 2</td>
 		            </tr>
 		            <tr>
-		            	<td>Row 2 - Body 1</td>
+		              <td>Row 2 - Body 1</td>
 		              <td>Row 2 - Body 2</td>
 		            </tr>
 		          </table>
