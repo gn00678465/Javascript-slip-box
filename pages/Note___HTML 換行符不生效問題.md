@@ -1,6 +1,6 @@
 category:: Note
 type:: #CSS, #HTML, #Javascript
-alias:: HTML 換行符不生效問題
+alias:: HTML - 換行符不生效問題
 
 - 在 HTML 中直接使用 `/n`，並無法換行，因 HTML 無法識別 `\n`，要讓其可以換行有下列方式
 - ## Resolve

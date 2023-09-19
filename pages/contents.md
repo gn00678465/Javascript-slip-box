@@ -20,7 +20,9 @@
 		- {{query (and (property :type "#Typescript") (property :type "#Utility"))}}
 		  query-properties:: [:page :category :type :alias :version]
 		  query-table:: true
-	- **Note**
+	- 📓 **Note**
+	  collapsed:: true
+		- [[TS - string & {}]]
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
 	- **Hooks**
@@ -37,7 +39,7 @@
 		  query-properties:: [:page :category :type :alias]
 	- 📓 **Note**
 	  collapsed:: true
-		- [[React 宣告帶有 childrend 的 props]]
+		- [[React - 宣告帶有 childrend 的 props]]
 		- [[React - Batch Update]]
 - <p style="font-size: 20px; font-weight: bold; color: #42b883;">Vue.js</p>
 	- **Vue2**
@@ -50,6 +52,11 @@
 		- {{query (property :type "#Vue3")}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias :version]
+- **HTML**
+	- 📓 **Note**
+	  collapsed:: true
+		- [[HTML - 換行符不生效問題]]
+		- [[HTML - Table Scroll With HTML and CSS]]
 - <p style="font-size: 20px; font-weight: bold; color: #215732;">Node.js</p>
   collapsed:: true
 	- {{query (property :type "#Node.js")}}

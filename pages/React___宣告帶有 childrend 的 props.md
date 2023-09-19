@@ -1,6 +1,6 @@
 category:: Note
-type:: #React, #Typescript
-alias:: React 宣告帶有 childrend 的 props
+type:: #React, #Typescript, #Note
+alias:: React - 宣告帶有 childrend 的 props
 
 - ## ReactNode
 	- ```ts
