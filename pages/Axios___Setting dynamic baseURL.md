@@ -10,3 +10,5 @@ alias:: Axios - Setting dynamic baseURL
     return config;
   }, (error) => Promise.reject(error))
   ```
+- ## Reference
+	- [Setting axios base url dynamically](https://github.com/axios/axios/issues/2448)
