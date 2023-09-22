@@ -11,3 +11,5 @@ alias:: Bitwise - Left Shift & Right Shift
 	- >最右位元消失，最左位元補 0
 	- `1000 >> 1 = 0100`
 	- `1000 >> 3 = 0001`
+- ## Reference
+	- [Bit - 演算法筆記](https://web.ntnu.edu.tw/~algo/Bit.html)
