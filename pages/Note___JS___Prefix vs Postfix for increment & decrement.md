@@ -1,6 +1,6 @@
 category:: Note
 type:: #Javascript, #Note
-alias:: JS - Prefix vs Postfix for increment/decrement
+alias:: JS - Prefix vs Postfix for increment & decrement
 
 - ## Prefix
 	- |**Operator**|**Meaning**|

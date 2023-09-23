@@ -24,6 +24,7 @@ alias:: Git 常用指令
 	- `git reset [SHA-1] --hard`
 	- `git reset ORIG_HEAD --hard`
 - ## Remote repository
+  collapsed:: true
 	- `git remote -v`: 確認目前的 remote repo (包含 rul)
 	- `git remote add <remote-name> <remote-url>`: 添加 remote repo
 		- **remote-name**: remote repo name
