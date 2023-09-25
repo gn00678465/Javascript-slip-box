@@ -2,6 +2,7 @@ category:: Programing
 type:: #Note, #React
 alias:: React - Compound Component Pattern
 
+- > 可以理解為有兩個或以上的 component 組成一個有特定功能的 component，通常會有一個 parent component，其他則為 children，**而當其中一個 component 單獨存在時，是沒有意義的。**
 - ## 適合使用的時機
 	- 多個元件需要相依在一起才能使用時
 	  logseq.order-list-type:: number
@@ -10,7 +11,7 @@ alias:: React - Compound Component Pattern
 	- 都需要在某個 Provider 內才能作用
 	  logseq.order-list-type:: number
 - ## 實作
-	- 建立主要 component
+	- 建立主要 parent component
 	  logseq.order-list-type:: number
 	- 使用 useContext 管理 state
 	  logseq.order-list-type:: number
@@ -51,3 +52,4 @@ alias:: React - Compound Component Pattern
 	  ```
 - ## Reference
 	- [Compound Component Pattern](https://pjchender.dev/react/react-compound-component-pattern/)
+	- [React Hooks: Compound Components](https://kentcdodds.com/blog/compound-components-with-react-hooks)
