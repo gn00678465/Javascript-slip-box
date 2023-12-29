@@ -1,5 +1,5 @@
 category:: Environment
-type:: #Note, #Vite
+type:: #Vite, #Npm, #Env
 alias:: Vite - Absolute path import support
 
 -

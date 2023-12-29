@@ -1,4 +1,8 @@
-## lint-staged
+category:: Environment
+type:: #Npm, #Env
+alias:: Pre-commit hook validation
+
+- ## lint-staged
 	- ```bash
 	  pnpm add -D husky lint-staged
 	  ```

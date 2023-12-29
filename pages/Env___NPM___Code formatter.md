@@ -1,5 +1,5 @@
 category:: Environment
-type:: #note
+type:: #Npm, #Env
 alias:: Formatter - Prettier
 
 - **Prettier**

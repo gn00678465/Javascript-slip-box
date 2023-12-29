@@ -1,5 +1,5 @@
 category:: Environment
-type:: Certificate
+type:: #Certificate
 alias:: certbot
 
 - ## 安裝 certbot
