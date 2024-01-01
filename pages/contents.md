@@ -74,3 +74,13 @@
 	- [[狀態模式 State]]
 	- [[策略模式 Strategy]]
 	- [[觀察者模式 Observer]]
+- <p style="font-size: 20px; font-weight: bold; color: #000;">環境設定</p>
+	- **Npm**
+	  collapsed:: true
+		- {{query (or (property :type "#Npm") (property :type "#Vite"))}}
+		  query-table:: true
+		  query-properties:: [:page :type]
+	- **Monorepo**
+	  collapsed:: true
+		- [[Env/Monorepo 架構]]
+		- [[Env/Monorepo - Nx]]

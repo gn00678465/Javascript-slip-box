@@ -254,7 +254,10 @@
 
  ;; Extra CodeMirror options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
-:editor/extra-codemirror-options {:lineWrapping true}
+:editor/extra-codemirror-options {
+                                  :lineWrapping true
+                                  :lineNumbers false
+                                  }
  ;; ignore #+keyword: for parsing page references in orgmode
  ;; :ignored-page-references-keywords #{"author" "startup"}
 
