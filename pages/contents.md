@@ -82,6 +82,7 @@
 	- [[觀察者模式 Observer]]
 - <p style="font-size: 20px; font-weight: bold; color: #000;">環境設定</p>
 	- **Npm**
+	  collapsed:: true
 		- {{query (or (property :type "#Npm") (property :type "#Vite"))}}
 		  query-table:: true
 		  query-properties:: [:page :type]
