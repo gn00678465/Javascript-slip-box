@@ -57,6 +57,11 @@
 	  collapsed:: true
 		- [[HTML - 換行符不生效問題]]
 		- [[HTML - Table Scroll With HTML and CSS]]
+- **Packages**
+	- **Axios**
+		- {{query (property :type "#Axios")}}
+		  query-table:: true
+		  query-properties:: [:page :category :type :alias :version]
 - <p style="font-size: 20px; font-weight: bold; color: #215732;">Node.js</p>
   collapsed:: true
 	- {{query (property :type "#Node.js")}}
@@ -76,7 +81,6 @@
 	- [[觀察者模式 Observer]]
 - <p style="font-size: 20px; font-weight: bold; color: #000;">環境設定</p>
 	- **Npm**
-	  collapsed:: true
 		- {{query (or (property :type "#Npm") (property :type "#Vite"))}}
 		  query-table:: true
 		  query-properties:: [:page :type]
