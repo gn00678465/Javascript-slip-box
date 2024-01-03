@@ -90,3 +90,6 @@
 	  collapsed:: true
 		- [[Env/Monorepo 架構]]
 		- [[Env/Monorepo - Nx]]
+	- **VSCode**
+	  collapsed:: true
+		- [[Env/VSCode extensions backup & restore]]
