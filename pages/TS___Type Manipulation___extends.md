@@ -4,10 +4,15 @@ alias:: extends
 
 - ## Narrow 收窄
   id:: 63f9f301-c0d3-4161-9399-80ecda1f0a22
-	- > **限縮**型別範圍
+	- > **限縮**, **約束**型別範圍
 	- ```typescript
 	  type CustomType<K extends string | number, V> = {
 	    [P in K]: V
+	  }
+	  
+	  // 約束傳入的參數必須有 length 這個屬性
+	  function fn<T extends { length: number }>(params: T): T {
+	    return params;
 	  }
 	  ```
 - ## 擴充
