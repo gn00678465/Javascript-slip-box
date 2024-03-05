@@ -64,6 +64,7 @@
 		  query-table:: true
 		  query-properties:: [:page :category :type :version]
 - <p style="font-size: 20px; font-weight: bold; color: #215732;">Node.js</p>
+  collapsed:: true
 	- {{query (property :type "#Node.js")}}
 	  query-properties:: [:page :category :type :alias]
 	  query-table:: true
