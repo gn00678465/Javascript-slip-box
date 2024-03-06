@@ -23,7 +23,6 @@ alias:: useReducer
 	  const [state, dispatch] = useReducer(reducer, initialState);
 	  ```
 - **Parameter**
-  collapsed:: true
 	- `reducer`: 為一個 callback function，內部定義了操作 state 的方法，透過 dispatch 呼叫
 		- ```typescript
 		  function reducer(state, action) {
@@ -42,7 +41,6 @@ alias:: useReducer
 	- `initialState`: 初始化的 state
 	- `initStateFn`: 初始化 state 的函式，非必要
 - **Return**
-  collapsed:: true
 	- 為一個陣列
 	- `state`: 當前的 state
 	- `dispatch`: 呼叫 `reducer` 的方法，可帶入一個參數

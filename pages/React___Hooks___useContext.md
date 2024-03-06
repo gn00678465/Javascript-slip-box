@@ -2,6 +2,7 @@ category:: Programing
 type:: #React, #Hooks
 alias:: useContext
 
+- > 需要搭配 [[React.createContext]]
 - ```typescript
   const content = useContext(context: React.createContext)
   ```
