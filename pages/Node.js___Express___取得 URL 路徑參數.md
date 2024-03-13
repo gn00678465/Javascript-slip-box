@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Node.js, #Express
 alias:: Express.js - 取得 URL 路徑參數
 

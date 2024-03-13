@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #ReactRouter, #Hooks
 alias:: useOutletContext
 

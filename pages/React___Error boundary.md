@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #React
 alias:: Error boundary
 version:: 16.0+

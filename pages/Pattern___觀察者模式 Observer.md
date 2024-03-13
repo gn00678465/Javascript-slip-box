@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Pattern
 alias:: 觀察者模式 Observer
 

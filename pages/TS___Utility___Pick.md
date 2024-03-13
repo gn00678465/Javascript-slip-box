@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript, #Utility
 alias:: Pick
 version:: 2.1+
@@ -21,7 +21,7 @@ version:: 2.1+
 	  }
 	  */
 	  ```
-### 實作
+- ### 實作
 	- ```typescript
 	  type MyPick<T, K extends keyof T> = {
 	    [P in K]: T[P];

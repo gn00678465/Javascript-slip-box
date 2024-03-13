@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: Javascript, Window
 alias:: window.matchMedia
 

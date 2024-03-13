@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: Javascript, Navigator
 alias:: Navigator.sendBeacon
 

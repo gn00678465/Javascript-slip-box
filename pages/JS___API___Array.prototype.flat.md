@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: Javascript, API, Array
 alias:: Array Flat
 
@@ -10,7 +10,7 @@ alias:: Array Flat
 	- `depth` **options**: Array 攤平的深度。預設為 1 。
 - **Return**
 	- 回傳一個新的已進行攤平後的 Array 。
-## 特性
+- ## 特性
 	- 會移除 Array 裡面的 empty slots
 	- 使用於 `non-array Objects`，`flat` 會讀取當前 object `this` 的 `length` 屬性
 		- 沒有 `length`: 回傳 `[]`

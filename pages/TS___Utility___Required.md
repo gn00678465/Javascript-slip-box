@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript, #Utility
 alias:: Required
 version:: 2.1+

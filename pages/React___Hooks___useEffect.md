@@ -1,8 +1,8 @@
-category:: Programing
+category:: Programming
 type:: #React, #Hooks
 alias:: useEffect
 
-## Syntax
+- ## Syntax
 	- ```ts
 	  useEffect(effect: EffectCallback, deps?: DependencyList): void
 	  ```

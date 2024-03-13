@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #CSS
 alias:: initial、inherit、unset、revert
 

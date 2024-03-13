@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript, #Utility
 alias:: Record
 version:: 2.1+

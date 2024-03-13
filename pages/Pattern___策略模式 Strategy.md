@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Pattern
 alias:: 策略模式 Strategy
 

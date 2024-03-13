@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #ReactRouter
 alias:: Protected Routes
 

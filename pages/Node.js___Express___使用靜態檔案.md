@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Node.js, #Express
 alias:: Express.js - 使用靜態檔案
 

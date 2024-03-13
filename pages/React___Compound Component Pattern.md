@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Note, #React
 alias:: React - Compound Component Pattern
 

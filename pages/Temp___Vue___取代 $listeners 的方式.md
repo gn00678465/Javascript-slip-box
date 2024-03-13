@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Vue3
 alias:: 取代 $listeners 的方式
 version:: 3.x+

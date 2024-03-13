@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript, #Utility
 alias:: NonNullable
 version:: 2.8+

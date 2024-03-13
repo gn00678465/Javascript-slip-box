@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Javascript, #ES6
 alias:: Tagged templates
 
