@@ -1,9 +1,9 @@
-category:: Programing
+category:: Programming
 type:: #ReactRouter
 alias:: Routes
 version:: 6.x+
 
-## 建立 Router
+- ## 建立 Router
 	- ```jsx
 	  import * as React from "react";
 	  import * as ReactDOM from "react-dom";

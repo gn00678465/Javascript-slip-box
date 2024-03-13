@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Pattern
 alias:: 狀態模式 State
 

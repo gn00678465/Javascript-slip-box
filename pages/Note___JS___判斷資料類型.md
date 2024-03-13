@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Javascript, #Note
 alias:: JS - 判斷資料類型
 

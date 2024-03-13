@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #React, #API
 alias:: Lazy & Suspense
 version:: 18.x+

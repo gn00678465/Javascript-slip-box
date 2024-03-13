@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Javascript, #API, #Window
 alias:: window.open
 

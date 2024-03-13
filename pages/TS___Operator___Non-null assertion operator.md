@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript
 alias:: Non-null assertion operator
 version:: 2.0+

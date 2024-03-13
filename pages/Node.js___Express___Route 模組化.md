@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Node.js, #Express
 alias:: Route 模組化
 

@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript, #Utility
 alias:: Awaited
 version:: 4.5+
@@ -14,7 +14,7 @@ version:: 4.5+
 	  
 	  type AwaitNestedData = Awaited<NestedPromiseData> // string;
 	  ```
-### 實作
+- ### 實作
 	- 需先判斷是否為 `undefined 或 null`
 	- 再判斷是否為 `Promise` 物件 or 是否為 nested `Promise` 物件
 	- ```typescript

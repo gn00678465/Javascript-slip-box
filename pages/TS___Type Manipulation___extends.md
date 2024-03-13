@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript
 alias:: extends
 

@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Javascript, #API
 alias:: ResizeObserver
 
@@ -23,6 +23,6 @@ alias:: ResizeObserver
 			  ```
 	- `unobserve(target: HTMLElement)`: 註銷某 Dom 元素的觀察
 	- `disconnect()`: 一次性的註銷所有元素的觀察
-## Reference
+- ## Reference
 	- [ResizeObserver - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 	- [检测DOM尺寸变化JS API ResizeObserver简介](https://www.zhangxinxu.com/wordpress/2020/03/dom-resize-api-resizeobserver/)

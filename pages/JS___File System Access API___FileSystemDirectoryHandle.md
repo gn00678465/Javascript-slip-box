@@ -1,10 +1,10 @@
-category:: Programing
+category:: Programming
 type:: Javascript, File System Access API
 alias:: FileSystemDirectoryHandle
 
 - ## Properties
 	- 繼承 [[FileSystemHandle]] 所有屬性
-## Methods
+- ## Methods
 	- 繼承 [[FileSystemHandle]] 所有方法
 	- `entries`: 回傳 [async iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols), 用於取得目錄中所有的檔案與目錄, `[key, value]`
 	- `keys`: 回傳 **async iterable objects**, 用於取得目錄中所有的檔案與目錄名稱

@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #React, #Hooks
 alias:: useState
 

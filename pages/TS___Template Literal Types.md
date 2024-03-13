@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Typescript
 alias:: Template Literal Types
 version:: 4.1+

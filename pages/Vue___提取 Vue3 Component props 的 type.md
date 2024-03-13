@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Vue3, #Typescript
 alias:: 提取 Vue3 Component props 的 type
 version:: 3.x+

@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #Node.js
 alias:: 取得環境路徑
 

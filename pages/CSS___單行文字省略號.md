@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #CSS
 alias:: CSS - 單行文字省略號
 

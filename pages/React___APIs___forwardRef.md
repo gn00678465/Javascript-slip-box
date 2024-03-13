@@ -1,5 +1,5 @@
 id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
-category:: Programing
+category:: Programming
 type:: #React, #API
 alias:: forwardRef
 

@@ -1,4 +1,4 @@
-category:: Programing
+category:: Programming
 type:: #ReactRouter
 alias:: Picking a Router
 version:: 6.4.x+
