@@ -12,3 +12,5 @@ alias:: Access Modifiers
 - {{embed [[TS/Access Modifiers/private]]}}
 - ### Protected
 - {{embed [[TS/Access Modifiers/protected]]}}
+- ## Reference
+	- [TypeScript 物件中的 public, private, protected, static, readonly](https://jimmyswebnote.com/typescript-object-public-private/)
