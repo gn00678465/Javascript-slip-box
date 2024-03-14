@@ -1,6 +1,6 @@
 category:: Programming
-type:: #Typescript
-alias:: Access Modifiers - protected
+type:: #Typescript, #Classes
+alias:: TS - Classes - protected
 
 - 在屬性前面加上 **protected** 後只能於 class 內部和繼承該 class 的 **繼承的class** 可以存取的到該屬性
   logseq.order-list-type:: number

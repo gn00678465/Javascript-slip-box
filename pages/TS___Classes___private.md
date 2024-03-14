@@ -1,6 +1,6 @@
 category:: Programming
-type:: #Typescript
-alias:: Access Modifiers - private
+type:: #Typescript, #Classes
+alias:: TS - Classes - private
 
 - Javascript 要達到此目的需要在屬性前面加上 `#`
   logseq.order-list-type:: number
