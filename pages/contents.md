@@ -78,6 +78,7 @@
 		- [[Nginx config - location]]
 - <p style="font-size: 20px; font-weight: bold; color: #000;">Pattern 設計模式</p>
   collapsed:: true
+	- [[單例模式 Singleton]]
 	- [[狀態模式 State]]
 	- [[策略模式 Strategy]]
 	- [[觀察者模式 Observer]]
