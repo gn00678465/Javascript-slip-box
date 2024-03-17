@@ -7,6 +7,9 @@
 		- [[讓 Git 可以追蹤空資料夾]]
 - <p style="font-size: 20px; font-weight: bold; color: #333;">GitHub</p>
 	- [[GitHub Actions]]
+- <p style="font-size: 20px; font-weight: bold; color: #333;">Note</p>
+	- [[Bitwise]]
+	- [[Note/什麼是 SSL、TLS 以及 HTTPS]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
 	- **Basic**
