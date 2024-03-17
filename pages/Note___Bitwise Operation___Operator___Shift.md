@@ -1,6 +1,6 @@
 category:: Note
 type:: #note, #Bitwise
-alias:: Bitwise - Left Shift & Right Shift
+alias:: Bitwise - Shift Operator
 
 - > 將一個變數的所有位元向左/向右移動
 - ## Left Shift `<<`
