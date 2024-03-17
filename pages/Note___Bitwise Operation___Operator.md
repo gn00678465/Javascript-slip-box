@@ -62,3 +62,5 @@ alias:: Bitwise - Operator
 	  -----------------------------------------
 	    0000 0000 0000 0000 0000 0000 0101 1101   -> 93
 	  ```
+- ## Reference
+	- [Bit - 演算法筆記](https://web.ntnu.edu.tw/~algo/Bit.html)
