@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript
+type:: #Javascript, #Example
 alias:: Debounce
 
 - > debounce(防抖)

@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: structuredClone
 
 - > 使用稱為結構複製的演算法將給定的 value 進行深拷貝

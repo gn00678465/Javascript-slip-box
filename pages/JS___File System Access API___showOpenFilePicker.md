@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, File System Access API
+type:: #Javascript, #[[File System Access API]]
 alias:: showOpenFilePicker
 
 - > 呼叫此方法會開啟一個檔案選擇器, 允許使用者選擇一個或多個檔案，並返回這些檔案的 `FileSystemFileHandle` 物件

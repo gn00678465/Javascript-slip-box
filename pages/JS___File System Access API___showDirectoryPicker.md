@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, File System Access API
+type:: #Javascript, #[[File System Access API]]
 alias:: showDirectoryPicker
 
 - > 呼叫此方法會開啟一個目錄選擇器, 允許使用者選擇一個目錄

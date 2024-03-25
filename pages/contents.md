@@ -8,9 +8,20 @@
 - <p style="font-size: 20px; font-weight: bold; color: #333;">GitHub</p>
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #333;">Note</p>
+  collapsed:: true
 	- [[Bitwise]]
 	- [[Note/什麼是 SSL、TLS 以及 HTTPS]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
+	- **Programming**
+	  collapsed:: true
+		- {{query (and (property :type "#Javascript") (property :category "Programming"))}}
+		  query-table:: true
+		  query-properties:: [:page :category :alias :version]
+	- **Note**
+	  collapsed:: true
+		- {{query (and (property :type "#Javascript") (property :category "Note"))}}
+		  query-table:: true
+		  query-properties:: [:page :category :alias]
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
 	- **Basic**
 	  collapsed:: true
@@ -75,6 +86,7 @@
 - <p style="font-size: 20px; font-weight: bold; color: #43A047;">Nginx</p>
   collapsed:: true
 	- [[Nginx config]]
+	  collapsed:: true
 		- [[Nginx config - https]]
 		- [[Nginx config - server]]
 		- [[Nginx config - upstream]]

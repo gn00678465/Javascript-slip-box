@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: History
 
 - > History 是一個瀏覽器提供的歷史紀錄操作介面，可以透過 `window.history` 來取得該物件。

@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, Navigator
+type:: #Javascript, #Navigator
 alias:: Navigator.sendBeacon
 
 - ## Syntax
