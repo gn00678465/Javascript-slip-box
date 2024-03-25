@@ -14,7 +14,7 @@
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
 	- **Programming**
 	  collapsed:: true
-		- {{query (and (property :type "#Javascript") (property :category "Programming"))}}
+		- {{query (and (property :type "#Javascript") (property :category "Programming") )}}
 		  query-table:: true
 		  query-properties:: [:page :category :alias :version]
 	- **Note**
