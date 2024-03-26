@@ -25,7 +25,7 @@
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
 	- **Basic**
 	  collapsed:: true
-		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) )}}
+		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) (not (property :category Note)) )}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias :version]
 	- **Utility**
@@ -38,6 +38,7 @@
 	- 📓 **Note**
 	  collapsed:: true
 		- [[TS - string & {}]]
+		- [[Note/TS/Discriminated Unions 範例]]
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
 	- **Hooks**
