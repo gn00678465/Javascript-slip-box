@@ -1,5 +1,5 @@
 category:: Programming
-type:: #React, #Hooks
+type:: #[[React]], #Hooks
 alias:: useRef
 
 - > 應用 call by reference (傳參考特性)

@@ -1,5 +1,5 @@
 category:: Note
-type:: #React, #Typescript, #Note
+type:: #[[React]], #Typescript, #Note
 alias:: React - 宣告帶有 childrend 的 props
 
 - ## ReactNode

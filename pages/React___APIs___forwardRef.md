@@ -1,6 +1,6 @@
 id:: 64a39106-3ebd-4a4c-822b-e6d06639c8ea
 category:: Programming
-type:: #React, #API
+type:: #[[React]], #API
 alias:: forwardRef
 
 - > lets your component expose a DOM node to parent component with a [ref.](https://react.dev/learn/manipulating-the-dom-with-refs)

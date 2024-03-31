@@ -1,5 +1,5 @@
 category:: Programming
-type:: #React, #Hooks
+type:: #[[React]], #Hooks
 alias:: useImperativeHandle
 
 - > 讓父元件得到子元件某些自定義方法

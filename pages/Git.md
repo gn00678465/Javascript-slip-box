@@ -1,0 +1,30 @@
+## 📚 Git 常用指令
+	- **切換分支**
+		- `git checkout [branch name]`
+		- `git checkout -b [branch name]`
+			- 建立新分支並切換至新建立的分支
+	- **合併**
+		- `git merge [branch name]`
+		- `git rebase`
+			- [[rebase]]
+	- **交互模式**
+		- `git rebase -i`
+			- [[合併提交]]
+			- [[修改歷史訊息]]
+	- **回復**
+		- `git reflog`
+		- `git reset HEAD~[number]`
+		- `git reset [SHA-1] --hard`
+		- `git reset ORIG_HEAD --hard`
+	- **Remote repository**
+		- `git remote -v`: 確認目前的 remote repo (包含 rul)
+		- `git remote add <remote-name> <remote-url>`: 添加 remote repo
+			- **remote-name**: remote repo name
+			- **remote-url**: remote repo url
+		- `git remote set-url <remote-name> <remote-url>`: 變更 remote repo
+			- **remote-name**: remote repo name
+			- **remote-url**: remote repo url
+- ## 📓 Note
+	- [[Git commit 的 type]]
+	- [[約定式提交 Conventional Commits]]
+	- [[讓 Git 可以追蹤空資料夾]]

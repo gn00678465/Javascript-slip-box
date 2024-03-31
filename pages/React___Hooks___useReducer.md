@@ -1,5 +1,5 @@
 category:: Programming
-type:: #React, #Hooks
+type:: #[[React]], #Hooks
 alias:: useReducer
 
 - > 適合處理較複雜的 state，可以將狀態的改變統一放在 reducer 去做管理

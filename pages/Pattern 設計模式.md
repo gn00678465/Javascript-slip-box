@@ -1,0 +1,4 @@
+- [[單例模式 Singleton]]
+- [[狀態模式 State]]
+- [[策略模式 Strategy]]
+- [[觀察者模式 Observer]]

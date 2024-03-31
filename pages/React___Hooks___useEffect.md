@@ -1,5 +1,5 @@
 category:: Programming
-type:: #React, #Hooks
+type:: #[[React]], #Hooks
 alias:: useEffect
 
 - ## Syntax

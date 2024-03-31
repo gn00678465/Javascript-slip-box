@@ -1,5 +1,5 @@
 category:: Programming
-type:: #Note, #React
+type:: #Note, #[[React]]
 alias:: React - Compound Component Pattern
 
 - > 可以理解為有兩個或以上的 component 組成一個有特定功能的 component，通常會有一個 parent component，其他則為 children，**而當其中一個 component 單獨存在時，是沒有意義的。**

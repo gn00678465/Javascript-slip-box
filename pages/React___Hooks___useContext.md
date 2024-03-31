@@ -1,5 +1,5 @@
 category:: Programming
-type:: #React, #Hooks
+type:: #[[React]], #Hooks
 alias:: useContext
 
 - > 需要搭配 [[React.createContext]]
