@@ -1,6 +1,6 @@
 category:: Programming
-type:: Javascript, API, Array
-alias:: Array Flat
+type:: #Javascript, #API
+alias:: Array.prototype.flat
 
 - > 將 Array 依照傳入的 depth level 進行攤平，並回傳新的 Array 。
 - ```javascript

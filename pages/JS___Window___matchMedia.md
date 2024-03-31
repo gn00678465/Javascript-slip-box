@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, Window
+type:: #Javascript, #Window
 alias:: window.matchMedia
 
 - ## Syntax

@@ -154,7 +154,7 @@ alias:: Pre-commit hook validation
 	- **建立 hooks 指令**
 	- ```bash
 	  npx husky add .husky/pre-commit "pnpm lint-staged"
-	  npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+	  npx husky add .husky/commit-msg  'pnpm exec commitlint --edit "${1}"'
 	  ```
 - ## Reference
 	- [commitlint](https://github.com/conventional-changelog/commitlint)

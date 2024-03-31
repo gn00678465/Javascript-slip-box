@@ -1,5 +1,5 @@
-category:: Programming
-type:: #Javascript, #Note
+category:: Note
+type:: #Javascript
 alias:: JS - 判斷資料類型
 
 - > 使用 `typeof` 判斷資料類型只能區分基本類型 (`number`, `object`, `string`, ...)

@@ -8,13 +8,24 @@
 - <p style="font-size: 20px; font-weight: bold; color: #333;">GitHub</p>
 	- [[GitHub Actions]]
 - <p style="font-size: 20px; font-weight: bold; color: #333;">Note</p>
+  collapsed:: true
 	- [[Bitwise]]
 	- [[Note/什麼是 SSL、TLS 以及 HTTPS]]
 - <p style="font-size: 20px; font-weight: bold; color: #f7df1e;">JavaScript</p>
+	- **Programming**
+	  collapsed:: true
+		- {{query (and (property :type "#Javascript") (property :category "Programming") )}}
+		  query-table:: true
+		  query-properties:: [:page :category :alias :version]
+	- **Note**
+	  collapsed:: true
+		- {{query (and (property :type "#Javascript") (property :category "Note"))}}
+		  query-table:: true
+		  query-properties:: [:page :category :alias]
 - <p style="font-size: 20px; font-weight: bold; color: #3178c6;">TypeScript</p>
 	- **Basic**
 	  collapsed:: true
-		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) )}}
+		- {{query (and (property :type "#Typescript") (not (property :type "#Utility")) (not (property :type "#React")) (not (property :type "#Vue3")) (not (property :category Note)) )}}
 		  query-table:: true
 		  query-properties:: [:page :category :type :alias :version]
 	- **Utility**
@@ -27,6 +38,7 @@
 	- 📓 **Note**
 	  collapsed:: true
 		- [[TS - string & {}]]
+		- [[Note/TS/Discriminated Unions 範例]]
 - <p style="font-size: 20px; font-weight: bold; color: #61DBFB">React</p>
 	- 📚 [[React 學習筆記]]
 	- **Hooks**
@@ -75,6 +87,7 @@
 - <p style="font-size: 20px; font-weight: bold; color: #43A047;">Nginx</p>
   collapsed:: true
 	- [[Nginx config]]
+	  collapsed:: true
 		- [[Nginx config - https]]
 		- [[Nginx config - server]]
 		- [[Nginx config - upstream]]

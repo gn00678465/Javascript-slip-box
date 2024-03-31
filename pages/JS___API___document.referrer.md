@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, API
+type:: #Javascript, #API
 alias:: document.referrer
 
 - > 取得當前頁面的前一個頁面網址

@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript
+type:: #Javascript, #Example
 alias:: Throttle
 
 - > throttle(節流)

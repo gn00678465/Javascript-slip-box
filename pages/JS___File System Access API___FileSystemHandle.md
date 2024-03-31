@@ -1,5 +1,5 @@
 category:: Programming
-type:: Javascript, File System Access API
+type:: #Javascript, #[[File System Access API]]
 alias:: FileSystemHandle
 
 - ## Properties
